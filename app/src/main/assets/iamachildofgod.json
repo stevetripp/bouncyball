@@ -1,0 +1,1388 @@
+{
+	"cross_fade_image_animation_duration": 0.5,
+	"image_transitions": [
+		{
+			"effect": 0,
+			"image": {
+				"color": 9601134,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x33,https://edge.ldscdn.org/mobile/images/847526/175a1531632f478baa71bf7b70e755f4/50x33.jpg\n100x66,https://edge.ldscdn.org/mobile/images/847526/175a1531632f478baa71bf7b70e755f4/100x66.jpg\n200x132,https://edge.ldscdn.org/mobile/images/847526/175a1531632f478baa71bf7b70e755f4/200x132.jpg\n320x212,https://edge.ldscdn.org/mobile/images/847526/175a1531632f478baa71bf7b70e755f4/320x212.jpg\n640x425,https://edge.ldscdn.org/mobile/images/847526/175a1531632f478baa71bf7b70e755f4/640x425.jpg\n1024x680,https://edge.ldscdn.org/mobile/images/847526/175a1531632f478baa71bf7b70e755f4/1024x680.jpg\n2048x1360,https://edge.ldscdn.org/mobile/images/847526/175a1531632f478baa71bf7b70e755f4/2048x1360.jpg"
+			},
+			"start": 0
+		},
+		{
+			"effect": 0,
+			"image": {
+				"color": 11445104,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x33,https://edge.ldscdn.org/mobile/images/1378448/ab3292df62054ce9b104e6c063f79ac0/50x33.jpg\n100x66,https://edge.ldscdn.org/mobile/images/1378448/ab3292df62054ce9b104e6c063f79ac0/100x66.jpg\n200x132,https://edge.ldscdn.org/mobile/images/1378448/ab3292df62054ce9b104e6c063f79ac0/200x132.jpg\n320x212,https://edge.ldscdn.org/mobile/images/1378448/ab3292df62054ce9b104e6c063f79ac0/320x212.jpg\n640x425,https://edge.ldscdn.org/mobile/images/1378448/ab3292df62054ce9b104e6c063f79ac0/640x425.jpg\n1024x680,https://edge.ldscdn.org/mobile/images/1378448/ab3292df62054ce9b104e6c063f79ac0/1024x680.jpg\n2048x1360,https://edge.ldscdn.org/mobile/images/1378448/ab3292df62054ce9b104e6c063f79ac0/2048x1360.jpg"
+			},
+			"start": 25.449282999999999
+		},
+		{
+			"effect": 1,
+			"image": {
+				"color": 6375736,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x37,https://edge.ldscdn.org/mobile/images/1242521/923ce3d0f9f1430f8285c78f1652dc82/50x37.jpg\n100x74,https://edge.ldscdn.org/mobile/images/1242521/923ce3d0f9f1430f8285c78f1652dc82/100x74.jpg\n200x149,https://edge.ldscdn.org/mobile/images/1242521/923ce3d0f9f1430f8285c78f1652dc82/200x149.jpg\n320x239,https://edge.ldscdn.org/mobile/images/1242521/923ce3d0f9f1430f8285c78f1652dc82/320x239.jpg\n640x479,https://edge.ldscdn.org/mobile/images/1242521/923ce3d0f9f1430f8285c78f1652dc82/640x479.jpg\n1024x767,https://edge.ldscdn.org/mobile/images/1242521/923ce3d0f9f1430f8285c78f1652dc82/1024x767.jpg\n2048x1535,https://edge.ldscdn.org/mobile/images/1242521/923ce3d0f9f1430f8285c78f1652dc82/2048x1535.jpg"
+			},
+			"start": 41.595283
+		},
+		{
+			"effect": 0,
+			"image": {
+				"color": 7433831,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x33,https://edge.ldscdn.org/mobile/images/826789/b85ec5b4ffcc44ed853ded7c2b446656/50x33.jpg\n100x66,https://edge.ldscdn.org/mobile/images/826789/b85ec5b4ffcc44ed853ded7c2b446656/100x66.jpg\n200x133,https://edge.ldscdn.org/mobile/images/826789/b85ec5b4ffcc44ed853ded7c2b446656/200x133.jpg\n320x213,https://edge.ldscdn.org/mobile/images/826789/b85ec5b4ffcc44ed853ded7c2b446656/320x213.jpg\n640x426,https://edge.ldscdn.org/mobile/images/826789/b85ec5b4ffcc44ed853ded7c2b446656/640x426.jpg\n1024x683,https://edge.ldscdn.org/mobile/images/826789/b85ec5b4ffcc44ed853ded7c2b446656/1024x683.jpg\n2048x1366,https://edge.ldscdn.org/mobile/images/826789/b85ec5b4ffcc44ed853ded7c2b446656/2048x1366.jpg"
+			},
+			"start": 63.313283
+		},
+		{
+			"effect": 1,
+			"image": {
+				"color": 10522246,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x33,https://edge.ldscdn.org/mobile/images/1359249/355f14fd5dbb45d6aaeedb15abad4fb4/50x33.jpg\n100x66,https://edge.ldscdn.org/mobile/images/1359249/355f14fd5dbb45d6aaeedb15abad4fb4/100x66.jpg\n200x133,https://edge.ldscdn.org/mobile/images/1359249/355f14fd5dbb45d6aaeedb15abad4fb4/200x133.jpg\n320x213,https://edge.ldscdn.org/mobile/images/1359249/355f14fd5dbb45d6aaeedb15abad4fb4/320x213.jpg\n640x426,https://edge.ldscdn.org/mobile/images/1359249/355f14fd5dbb45d6aaeedb15abad4fb4/640x426.jpg\n1024x682,https://edge.ldscdn.org/mobile/images/1359249/355f14fd5dbb45d6aaeedb15abad4fb4/1024x682.jpg\n2048x1365,https://edge.ldscdn.org/mobile/images/1359249/355f14fd5dbb45d6aaeedb15abad4fb4/2048x1365.jpg"
+			},
+			"start": 83.93328299999999
+		},
+		{
+			"effect": 1,
+			"image": {
+				"color": 9406342,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x33,https://edge.ldscdn.org/mobile/images/896858/3bfdde37a1ae4164b57b8c13d4404890/50x33.jpg\n100x66,https://edge.ldscdn.org/mobile/images/896858/3bfdde37a1ae4164b57b8c13d4404890/100x66.jpg\n200x133,https://edge.ldscdn.org/mobile/images/896858/3bfdde37a1ae4164b57b8c13d4404890/200x133.jpg\n320x213,https://edge.ldscdn.org/mobile/images/896858/3bfdde37a1ae4164b57b8c13d4404890/320x213.jpg\n640x427,https://edge.ldscdn.org/mobile/images/896858/3bfdde37a1ae4164b57b8c13d4404890/640x427.jpg\n1024x683,https://edge.ldscdn.org/mobile/images/896858/3bfdde37a1ae4164b57b8c13d4404890/1024x683.jpg\n1600x1068,https://edge.ldscdn.org/mobile/images/896858/3bfdde37a1ae4164b57b8c13d4404890/1600x1068.jpg"
+			},
+			"start": 106.110283
+		},
+		{
+			"effect": 1,
+			"image": {
+				"color": 6642772,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x33,https://edge.ldscdn.org/mobile/images/1161951/75fd9e36fa7143dfa9b2c96057960c50/50x33.jpg\n100x66,https://edge.ldscdn.org/mobile/images/1161951/75fd9e36fa7143dfa9b2c96057960c50/100x66.jpg\n200x133,https://edge.ldscdn.org/mobile/images/1161951/75fd9e36fa7143dfa9b2c96057960c50/200x133.jpg\n320x213,https://edge.ldscdn.org/mobile/images/1161951/75fd9e36fa7143dfa9b2c96057960c50/320x213.jpg\n640x426,https://edge.ldscdn.org/mobile/images/1161951/75fd9e36fa7143dfa9b2c96057960c50/640x426.jpg\n1024x682,https://edge.ldscdn.org/mobile/images/1161951/75fd9e36fa7143dfa9b2c96057960c50/1024x682.jpg\n2048x1365,https://edge.ldscdn.org/mobile/images/1161951/75fd9e36fa7143dfa9b2c96057960c50/2048x1365.jpg"
+			},
+			"start": 127.40928299999999
+		},
+		{
+			"effect": 1,
+			"image": {
+				"color": 7173463,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x33,https://edge.ldscdn.org/mobile/images/1013730/eef5234e84fd453d900476ee5dc05271/50x33.jpg\n100x66,https://edge.ldscdn.org/mobile/images/1013730/eef5234e84fd453d900476ee5dc05271/100x66.jpg\n200x133,https://edge.ldscdn.org/mobile/images/1013730/eef5234e84fd453d900476ee5dc05271/200x133.jpg\n320x213,https://edge.ldscdn.org/mobile/images/1013730/eef5234e84fd453d900476ee5dc05271/320x213.jpg\n640x426,https://edge.ldscdn.org/mobile/images/1013730/eef5234e84fd453d900476ee5dc05271/640x426.jpg\n1024x682,https://edge.ldscdn.org/mobile/images/1013730/eef5234e84fd453d900476ee5dc05271/1024x682.jpg\n2048x1365,https://edge.ldscdn.org/mobile/images/1013730/eef5234e84fd453d900476ee5dc05271/2048x1365.jpg"
+			},
+			"start": 149.969283
+		},
+		{
+			"effect": 0,
+			"image": {
+				"color": 10126439,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x33,https://edge.ldscdn.org/mobile/images/1081006/674690a3ccef40c68837f637e68946cd/50x33.jpg\n100x66,https://edge.ldscdn.org/mobile/images/1081006/674690a3ccef40c68837f637e68946cd/100x66.jpg\n200x133,https://edge.ldscdn.org/mobile/images/1081006/674690a3ccef40c68837f637e68946cd/200x133.jpg\n320x213,https://edge.ldscdn.org/mobile/images/1081006/674690a3ccef40c68837f637e68946cd/320x213.jpg\n640x426,https://edge.ldscdn.org/mobile/images/1081006/674690a3ccef40c68837f637e68946cd/640x426.jpg\n1024x682,https://edge.ldscdn.org/mobile/images/1081006/674690a3ccef40c68837f637e68946cd/1024x682.jpg\n2048x1365,https://edge.ldscdn.org/mobile/images/1081006/674690a3ccef40c68837f637e68946cd/2048x1365.jpg"
+			},
+			"start": 171.095283
+		}
+	],
+	"in_out_ball_animation_duration": 1,
+	"lines": [
+		{
+			"start": 22.277282999999998,
+			"syllables": [
+				{
+					"ball_range": "{0,1}",
+					"range": "{0,1}",
+					"start": 22.277282999999998
+				},
+				{
+					"ball_range": "{2,2}",
+					"range": "{2,2}",
+					"start": 22.803282999999998
+				},
+				{
+					"ball_range": "{5,1}",
+					"range": "{5,1}",
+					"start": 23.110283
+				},
+				{
+					"ball_range": "{7,5}",
+					"range": "{7,5}",
+					"start": 23.522282999999999
+				},
+				{
+					"ball_range": "{13,2}",
+					"range": "{13,2}",
+					"start": 24.098283
+				},
+				{
+					"ball_range": "{16,3}",
+					"range": "{16,4}",
+					"start": 24.659283
+				}
+			],
+			"text": "I am a child of God,"
+		},
+		{
+			"start": 26.449282999999999,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 26.449282999999999
+				},
+				{
+					"ball_range": "{4,2}",
+					"range": "{4,2}",
+					"start": 27.153283
+				},
+				{
+					"ball_range": "{7,3}",
+					"range": "{7,3}",
+					"start": 28.082282999999998
+				},
+				{
+					"ball_range": "{11,4}",
+					"range": "{11,4}",
+					"start": 28.447283
+				},
+				{
+					"ball_range": "{16,2}",
+					"range": "{16,2}",
+					"start": 29.043283
+				},
+				{
+					"ball_range": "{19,4}",
+					"range": "{19,5}",
+					"start": 29.616283
+				}
+			],
+			"text": "And he has sent me here."
+		},
+		{
+			"image": null,
+			"start": 31.616283,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 31.616283
+				},
+				{
+					"ball_range": "{4,3}",
+					"range": "{4,3}",
+					"start": 32.226283
+				},
+				{
+					"ball_range": "{7,2}",
+					"range": "{7,2}",
+					"start": 32.863283
+				},
+				{
+					"ball_range": "{10,2}",
+					"range": "{10,2}",
+					"start": 33.486283
+				},
+				{
+					"ball_range": "{13,2}",
+					"range": "{13,2}",
+					"start": 34.044283
+				},
+				{
+					"ball_range": "{16,5}",
+					"range": "{16,5}",
+					"start": 34.606283000000008
+				},
+				{
+					"ball_range": "{21,2}",
+					"range": "{21,2}",
+					"start": 35.200283
+				},
+				{
+					"ball_range": "{24,4}",
+					"range": "{24,4}",
+					"start": 35.854283
+				}
+			],
+			"text": "Has given me an earthly home"
+		},
+		{
+			"image": null,
+			"start": 36.833283,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 36.833283
+				},
+				{
+					"ball_range": "{5,3}",
+					"range": "{5,3}",
+					"start": 37.453283
+				},
+				{
+					"ball_range": "{8,4}",
+					"range": "{8,4}",
+					"start": 38.078283
+				},
+				{
+					"ball_range": "{13,4}",
+					"range": "{13,4}",
+					"start": 38.685283000000008
+				},
+				{
+					"ball_range": "{18,3}",
+					"range": "{18,3}",
+					"start": 39.279283
+				},
+				{
+					"ball_range": "{22,4}",
+					"range": "{22,5}",
+					"start": 39.836283
+				}
+			],
+			"text": "With parents kind and dear."
+		},
+		{
+			"start": 42.595283,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 42.595283
+				},
+				{
+					"ball_range": "{5,2}",
+					"range": "{5,3}",
+					"start": 43.267283
+				},
+				{
+					"ball_range": "{9,5}",
+					"range": "{9,5}",
+					"start": 43.923283000000008
+				},
+				{
+					"ball_range": "{15,2}",
+					"range": "{15,3}",
+					"start": 44.579283000000007
+				},
+				{
+					"ball_range": "{19,4}",
+					"range": "{19,4}",
+					"start": 45.252283
+				},
+				{
+					"ball_range": "{24,2}",
+					"range": "{24,2}",
+					"start": 45.906283
+				},
+				{
+					"ball_range": "{26,4}",
+					"range": "{26,4}",
+					"start": 46.466283000000007
+				},
+				{
+					"ball_range": "{31,2}",
+					"range": "{31,3}",
+					"start": 47.026283
+				}
+			],
+			"text": "Lead me, guide me, walk beside me,"
+		},
+		{
+			"image": null,
+			"start": 47.652283000000007,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 47.652283000000007
+				},
+				{
+					"ball_range": "{5,2}",
+					"range": "{5,2}",
+					"start": 48.294283
+				},
+				{
+					"ball_range": "{8,4}",
+					"range": "{8,4}",
+					"start": 48.882283
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 49.860283
+				},
+				{
+					"ball_range": "{17,3}",
+					"range": "{17,4}",
+					"start": 50.211283
+				}
+			],
+			"text": "Help me find the way."
+		},
+		{
+			"image": null,
+			"start": 52.889283,
+			"syllables": [
+				{
+					"ball_range": "{0,5}",
+					"range": "{0,5}",
+					"start": 52.889283
+				},
+				{
+					"ball_range": "{6,2}",
+					"range": "{6,2}",
+					"start": 53.563283000000009
+				},
+				{
+					"ball_range": "{9,3}",
+					"range": "{9,3}",
+					"start": 54.202283
+				},
+				{
+					"ball_range": "{13,4}",
+					"range": "{13,4}",
+					"start": 54.762283000000007
+				},
+				{
+					"ball_range": "{18,1}",
+					"range": "{18,1}",
+					"start": 55.401283
+				},
+				{
+					"ball_range": "{20,4}",
+					"range": "{20,4}",
+					"start": 56.023283
+				},
+				{
+					"ball_range": "{25,2}",
+					"range": "{25,2}",
+					"start": 56.776283
+				}
+			],
+			"text": "Teach me all that I must do"
+		},
+		{
+			"image": null,
+			"start": 58.119283,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 58.119283
+				},
+				{
+					"ball_range": "{3,4}",
+					"range": "{3,4}",
+					"start": 58.472283000000007
+				},
+				{
+					"ball_range": "{8,4}",
+					"range": "{8,4}",
+					"start": 59.032283
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 59.672283
+				},
+				{
+					"ball_range": "{17,4}",
+					"range": "{17,4}",
+					"start": 60.295283000000008
+				},
+				{
+					"ball_range": "{21,3}",
+					"range": "{21,4}",
+					"start": 60.933283
+				}
+			],
+			"text": "To live with him someday."
+		},
+		{
+			"image": null,
+			"start": 63.113283,
+			"syllables": [],
+			"text": ""
+		},
+		{
+			"start": 64.313283,
+			"syllables": [
+				{
+					"ball_range": "{0,1}",
+					"range": "{0,1}",
+					"start": 64.313283
+				},
+				{
+					"ball_range": "{2,2}",
+					"range": "{2,2}",
+					"start": 64.81428299999999
+				},
+				{
+					"ball_range": "{5,1}",
+					"range": "{5,1}",
+					"start": 65.08228299999999
+				},
+				{
+					"ball_range": "{7,5}",
+					"range": "{7,5}",
+					"start": 65.447283
+				},
+				{
+					"ball_range": "{13,2}",
+					"range": "{13,2}",
+					"start": 66.02328299999999
+				},
+				{
+					"ball_range": "{16,3}",
+					"range": "{16,4}",
+					"start": 66.599283
+				}
+			],
+			"text": "I am a child of God,"
+		},
+		{
+			"image": null,
+			"start": 68.486283,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 68.486283
+				},
+				{
+					"ball_range": "{4,2}",
+					"range": "{4,2}",
+					"start": 69.176283
+				},
+				{
+					"ball_range": "{7,2}",
+					"range": "{7,2}",
+					"start": 70.07028299999999
+				},
+				{
+					"ball_range": "{10,5}",
+					"range": "{10,5}",
+					"start": 70.453283
+				},
+				{
+					"ball_range": "{16,3}",
+					"range": "{16,3}",
+					"start": 70.997283
+				},
+				{
+					"ball_range": "{20,5}",
+					"range": "{20,6}",
+					"start": 71.589283
+				}
+			],
+			"text": "And so my needs are great;"
+		},
+		{
+			"image": null,
+			"start": 73.66828299999999,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 73.66828299999999
+				},
+				{
+					"ball_range": "{5,2}",
+					"range": "{5,2}",
+					"start": 74.295283
+				},
+				{
+					"ball_range": "{8,2}",
+					"range": "{8,2}",
+					"start": 74.902283
+				},
+				{
+					"ball_range": "{11,2}",
+					"range": "{11,2}",
+					"start": 75.510283
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 76.132283
+				},
+				{
+					"ball_range": "{16,5}",
+					"range": "{16,5}",
+					"start": 76.711283
+				},
+				{
+					"ball_range": "{22,3}",
+					"range": "{22,3}",
+					"start": 77.315283
+				},
+				{
+					"ball_range": "{26,5}",
+					"range": "{26,5}",
+					"start": 78.018283
+				}
+			],
+			"text": "Help me to understand his words"
+		},
+		{
+			"image": null,
+			"start": 79.34428299999999,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 79.34428299999999
+				},
+				{
+					"ball_range": "{2,4}",
+					"range": "{2,4}",
+					"start": 79.69828299999999
+				},
+				{
+					"ball_range": "{7,2}",
+					"range": "{7,2}",
+					"start": 80.278283
+				},
+				{
+					"ball_range": "{10,5}",
+					"range": "{10,5}",
+					"start": 80.897283
+				},
+				{
+					"ball_range": "{16,3}",
+					"range": "{16,3}",
+					"start": 81.50528299999999
+				},
+				{
+					"ball_range": "{20,4}",
+					"range": "{20,5}",
+					"start": 82.129283
+				}
+			],
+			"text": "Before it grows too late."
+		},
+		{
+			"start": 84.93328299999999,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 84.93328299999999
+				},
+				{
+					"ball_range": "{5,2}",
+					"range": "{5,3}",
+					"start": 85.57328299999999
+				},
+				{
+					"ball_range": "{9,5}",
+					"range": "{9,5}",
+					"start": 86.229283
+				},
+				{
+					"ball_range": "{15,2}",
+					"range": "{15,3}",
+					"start": 86.804283
+				},
+				{
+					"ball_range": "{19,4}",
+					"range": "{19,4}",
+					"start": 87.46328299999999
+				},
+				{
+					"ball_range": "{24,2}",
+					"range": "{24,2}",
+					"start": 88.06728299999999
+				},
+				{
+					"ball_range": "{26,4}",
+					"range": "{26,4}",
+					"start": 88.66028299999999
+				},
+				{
+					"ball_range": "{31,2}",
+					"range": "{31,3}",
+					"start": 89.26728299999999
+				}
+			],
+			"text": "Lead me, guide me, walk beside me,"
+		},
+		{
+			"image": null,
+			"start": 89.878283,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 89.878283
+				},
+				{
+					"ball_range": "{5,2}",
+					"range": "{5,2}",
+					"start": 90.51428299999999
+				},
+				{
+					"ball_range": "{8,4}",
+					"range": "{8,4}",
+					"start": 91.138283
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 92.16228299999999
+				},
+				{
+					"ball_range": "{17,3}",
+					"range": "{17,4}",
+					"start": 92.483283
+				}
+			],
+			"text": "Help me find the way."
+		},
+		{
+			"image": null,
+			"start": 94.94828299999999,
+			"syllables": [
+				{
+					"ball_range": "{0,5}",
+					"range": "{0,5}",
+					"start": 94.94828299999999
+				},
+				{
+					"ball_range": "{6,2}",
+					"range": "{6,2}",
+					"start": 95.894283
+				},
+				{
+					"ball_range": "{9,3}",
+					"range": "{9,3}",
+					"start": 96.58228299999999
+				},
+				{
+					"ball_range": "{13,4}",
+					"range": "{13,4}",
+					"start": 97.203283
+				},
+				{
+					"ball_range": "{18,1}",
+					"range": "{18,1}",
+					"start": 97.827283
+				},
+				{
+					"ball_range": "{20,4}",
+					"range": "{20,4}",
+					"start": 98.42128299999999
+				},
+				{
+					"ball_range": "{25,2}",
+					"range": "{25,2}",
+					"start": 99.143283
+				}
+			],
+			"text": "Teach me all that I must do"
+		},
+		{
+			"image": null,
+			"start": 100.709283,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 100.709283
+				},
+				{
+					"ball_range": "{3,4}",
+					"range": "{3,4}",
+					"start": 101.09428299999999
+				},
+				{
+					"ball_range": "{8,4}",
+					"range": "{8,4}",
+					"start": 101.732283
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 102.322283
+				},
+				{
+					"ball_range": "{17,4}",
+					"range": "{17,4}",
+					"start": 102.929283
+				},
+				{
+					"ball_range": "{21,3}",
+					"range": "{21,4}",
+					"start": 103.53828299999999
+				}
+			],
+			"text": "To live with him someday."
+		},
+		{
+			"image": null,
+			"start": 105.91028299999999,
+			"syllables": [],
+			"text": ""
+		},
+		{
+			"start": 107.110283,
+			"syllables": [
+				{
+					"ball_range": "{0,1}",
+					"range": "{0,1}",
+					"start": 107.110283
+				},
+				{
+					"ball_range": "{2,2}",
+					"range": "{2,2}",
+					"start": 107.653283
+				},
+				{
+					"ball_range": "{5,1}",
+					"range": "{5,1}",
+					"start": 107.91028299999999
+				},
+				{
+					"ball_range": "{7,5}",
+					"range": "{7,5}",
+					"start": 108.262283
+				},
+				{
+					"ball_range": "{13,2}",
+					"range": "{13,2}",
+					"start": 108.836283
+				},
+				{
+					"ball_range": "{16,3}",
+					"range": "{16,4}",
+					"start": 109.382283
+				}
+			],
+			"text": "I am a child of God."
+		},
+		{
+			"image": null,
+			"start": 111.315283,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 111.315283
+				},
+				{
+					"ball_range": "{5,5}",
+					"range": "{5,5}",
+					"start": 111.95728299999999
+				},
+				{
+					"ball_range": "{10,4}",
+					"range": "{10,4}",
+					"start": 113.044283
+				},
+				{
+					"ball_range": "{15,3}",
+					"range": "{15,3}",
+					"start": 113.44528299999999
+				},
+				{
+					"ball_range": "{19,2}",
+					"range": "{19,2}",
+					"start": 114.05228299999999
+				},
+				{
+					"ball_range": "{22,5}",
+					"range": "{22,6}",
+					"start": 114.676283
+				}
+			],
+			"text": "Rich blessings are in store;"
+		},
+		{
+			"image": null,
+			"start": 116.706283,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 116.706283
+				},
+				{
+					"ball_range": "{3,1}",
+					"range": "{3,1}",
+					"start": 117.509283
+				},
+				{
+					"ball_range": "{5,3}",
+					"range": "{5,3}",
+					"start": 118.194283
+				},
+				{
+					"ball_range": "{9,5}",
+					"range": "{9,5}",
+					"start": 118.882283
+				},
+				{
+					"ball_range": "{15,2}",
+					"range": "{15,2}",
+					"start": 119.536283
+				},
+				{
+					"ball_range": "{18,2}",
+					"range": "{18,2}",
+					"start": 120.16228299999999
+				},
+				{
+					"ball_range": "{21,3}",
+					"range": "{21,3}",
+					"start": 120.76728299999999
+				},
+				{
+					"ball_range": "{25,4}",
+					"range": "{25,5}",
+					"start": 121.443283
+				}
+			],
+			"text": "If I but learn to do his will,"
+		},
+		{
+			"image": null,
+			"start": 122.595283,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 122.595283
+				},
+				{
+					"ball_range": "{5,4}",
+					"range": "{5,4}",
+					"start": 123.01128299999999
+				},
+				{
+					"ball_range": "{10,4}",
+					"range": "{10,4}",
+					"start": 123.632283
+				},
+				{
+					"ball_range": "{15,3}",
+					"range": "{15,3}",
+					"start": 124.272283
+				},
+				{
+					"ball_range": "{19,4}",
+					"range": "{19,4}",
+					"start": 124.846283
+				},
+				{
+					"ball_range": "{24,4}",
+					"range": "{24,5}",
+					"start": 125.438283
+				}
+			],
+			"text": "I’ll live with him once more."
+		},
+		{
+			"start": 128.409283,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 128.409283
+				},
+				{
+					"ball_range": "{5,2}",
+					"range": "{5,3}",
+					"start": 129.112283
+				},
+				{
+					"ball_range": "{9,5}",
+					"range": "{9,5}",
+					"start": 129.781283
+				},
+				{
+					"ball_range": "{15,2}",
+					"range": "{15,3}",
+					"start": 130.452283
+				},
+				{
+					"ball_range": "{19,4}",
+					"range": "{19,4}",
+					"start": 131.077283
+				},
+				{
+					"ball_range": "{24,2}",
+					"range": "{24,2}",
+					"start": 131.637283
+				},
+				{
+					"ball_range": "{26,4}",
+					"range": "{26,4}",
+					"start": 132.197283
+				},
+				{
+					"ball_range": "{31,2}",
+					"range": "{31,3}",
+					"start": 132.804283
+				}
+			],
+			"text": "Lead me, guide me, walk beside me,"
+		},
+		{
+			"image": null,
+			"start": 133.476283,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 133.476283
+				},
+				{
+					"ball_range": "{5,2}",
+					"range": "{5,2}",
+					"start": 134.149283
+				},
+				{
+					"ball_range": "{8,4}",
+					"range": "{8,4}",
+					"start": 134.821283
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 135.811283
+				},
+				{
+					"ball_range": "{17,3}",
+					"range": "{17,4}",
+					"start": 136.162283
+				}
+			],
+			"text": "Help me find the way."
+		},
+		{
+			"image": null,
+			"start": 138.862283,
+			"syllables": [
+				{
+					"ball_range": "{0,5}",
+					"range": "{0,5}",
+					"start": 138.862283
+				},
+				{
+					"ball_range": "{6,2}",
+					"range": "{6,2}",
+					"start": 139.59828299999999
+				},
+				{
+					"ball_range": "{9,3}",
+					"range": "{9,3}",
+					"start": 140.27128299999999
+				},
+				{
+					"ball_range": "{13,4}",
+					"range": "{13,4}",
+					"start": 140.911283
+				},
+				{
+					"ball_range": "{18,1}",
+					"range": "{18,1}",
+					"start": 141.53328299999999
+				},
+				{
+					"ball_range": "{20,4}",
+					"range": "{20,4}",
+					"start": 142.221283
+				},
+				{
+					"ball_range": "{25,2}",
+					"range": "{25,2}",
+					"start": 142.92628299999999
+				}
+			],
+			"text": "Teach me all that I must do"
+		},
+		{
+			"image": null,
+			"start": 144.428283,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 144.428283
+				},
+				{
+					"ball_range": "{3,4}",
+					"range": "{3,4}",
+					"start": 144.844283
+				},
+				{
+					"ball_range": "{8,4}",
+					"range": "{8,4}",
+					"start": 145.501283
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 146.204283
+				},
+				{
+					"ball_range": "{17,4}",
+					"range": "{17,4}",
+					"start": 147.131283
+				},
+				{
+					"ball_range": "{21,3}",
+					"range": "{21,4}",
+					"start": 147.963283
+				}
+			],
+			"text": "To live with him someday."
+		},
+		{
+			"start": 150.969283,
+			"syllables": [
+				{
+					"ball_range": "{0,1}",
+					"range": "{0,1}",
+					"start": 150.969283
+				},
+				{
+					"ball_range": "{2,2}",
+					"range": "{2,2}",
+					"start": 151.368283
+				},
+				{
+					"ball_range": "{5,1}",
+					"range": "{5,1}",
+					"start": 151.576283
+				},
+				{
+					"ball_range": "{7,5}",
+					"range": "{7,5}",
+					"start": 151.863283
+				},
+				{
+					"ball_range": "{13,2}",
+					"range": "{13,2}",
+					"start": 152.42628299999999
+				},
+				{
+					"ball_range": "{16,3}",
+					"range": "{16,4}",
+					"start": 152.98528299999999
+				}
+			],
+			"text": "I am a child of God."
+		},
+		{
+			"image": null,
+			"start": 155.047283,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 155.047283
+				},
+				{
+					"ball_range": "{4,3}",
+					"range": "{4,3}",
+					"start": 155.61028299999999
+				},
+				{
+					"ball_range": "{7,2}",
+					"range": "{7,2}",
+					"start": 156.661283
+				},
+				{
+					"ball_range": "{9,3}",
+					"range": "{9,3}",
+					"start": 157.061283
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 157.672283
+				},
+				{
+					"ball_range": "{17,4}",
+					"range": "{17,5}",
+					"start": 158.311283
+				}
+			],
+			"text": "His promises are sure;"
+		},
+		{
+			"image": null,
+			"start": 160.422283,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 160.422283
+				},
+				{
+					"ball_range": "{3,2}",
+					"range": "{3,2}",
+					"start": 161.04528299999999
+				},
+				{
+					"ball_range": "{5,4}",
+					"range": "{5,4}",
+					"start": 161.781283
+				},
+				{
+					"ball_range": "{10,4}",
+					"range": "{10,4}",
+					"start": 162.436283
+				},
+				{
+					"ball_range": "{14,1}",
+					"range": "{14,1}",
+					"start": 163.112283
+				},
+				{
+					"ball_range": "{16,5}",
+					"range": "{16,5}",
+					"start": 163.763283
+				},
+				{
+					"ball_range": "{22,2}",
+					"range": "{22,2}",
+					"start": 164.434283
+				},
+				{
+					"ball_range": "{25,4}",
+					"range": "{25,4}",
+					"start": 165.094283
+				}
+			],
+			"text": "Celestial glory shall be mine"
+		},
+		{
+			"image": null,
+			"start": 166.214283,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 166.214283
+				},
+				{
+					"ball_range": "{3,1}",
+					"range": "{3,1}",
+					"start": 166.595283
+				},
+				{
+					"ball_range": "{5,3}",
+					"range": "{5,3}",
+					"start": 167.202283
+				},
+				{
+					"ball_range": "{9,3}",
+					"range": "{9,3}",
+					"start": 167.844283
+				},
+				{
+					"ball_range": "{13,2}",
+					"range": "{13,2}",
+					"start": 168.465283
+				},
+				{
+					"ball_range": "{15,4}",
+					"range": "{15,5}",
+					"start": 169.077283
+				}
+			],
+			"text": "If I can but endure."
+		},
+		{
+			"start": 172.095283,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 172.095283
+				},
+				{
+					"ball_range": "{5,2}",
+					"range": "{5,3}",
+					"start": 172.72328299999999
+				},
+				{
+					"ball_range": "{9,5}",
+					"range": "{9,5}",
+					"start": 173.376283
+				},
+				{
+					"ball_range": "{15,2}",
+					"range": "{15,3}",
+					"start": 173.967283
+				},
+				{
+					"ball_range": "{19,4}",
+					"range": "{19,4}",
+					"start": 174.623283
+				},
+				{
+					"ball_range": "{24,2}",
+					"range": "{24,2}",
+					"start": 175.198283
+				},
+				{
+					"ball_range": "{26,4}",
+					"range": "{26,4}",
+					"start": 175.793283
+				},
+				{
+					"ball_range": "{31,2}",
+					"range": "{31,3}",
+					"start": 176.399283
+				}
+			],
+			"text": "Lead me, guide me, walk beside me,"
+		},
+		{
+			"image": null,
+			"start": 177.037283,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 177.037283
+				},
+				{
+					"ball_range": "{5,2}",
+					"range": "{5,2}",
+					"start": 177.71228299999999
+				},
+				{
+					"ball_range": "{8,4}",
+					"range": "{8,4}",
+					"start": 178.36628299999999
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 179.326283
+				},
+				{
+					"ball_range": "{17,3}",
+					"range": "{17,4}",
+					"start": 179.714283
+				}
+			],
+			"text": "Help me find the way."
+		},
+		{
+			"image": null,
+			"start": 182.463283,
+			"syllables": [
+				{
+					"ball_range": "{0,5}",
+					"range": "{0,5}",
+					"start": 182.463283
+				},
+				{
+					"ball_range": "{6,2}",
+					"range": "{6,2}",
+					"start": 183.167283
+				},
+				{
+					"ball_range": "{9,3}",
+					"range": "{9,3}",
+					"start": 183.809283
+				},
+				{
+					"ball_range": "{13,4}",
+					"range": "{13,4}",
+					"start": 184.43228299999999
+				},
+				{
+					"ball_range": "{18,1}",
+					"range": "{18,1}",
+					"start": 185.086283
+				},
+				{
+					"ball_range": "{20,4}",
+					"range": "{20,4}",
+					"start": 185.744283
+				},
+				{
+					"ball_range": "{25,2}",
+					"range": "{25,2}",
+					"start": 186.512283
+				}
+			],
+			"text": "Teach me all that I must do"
+		},
+		{
+			"image": null,
+			"start": 188.095283,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 188.095283
+				},
+				{
+					"ball_range": "{3,4}",
+					"range": "{3,4}",
+					"start": 188.445283
+				},
+				{
+					"ball_range": "{8,4}",
+					"range": "{8,4}",
+					"start": 189.071283
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 189.756283
+				},
+				{
+					"ball_range": "{17,4}",
+					"range": "{17,4}",
+					"start": 190.715283
+				},
+				{
+					"ball_range": "{21,3}",
+					"range": "{21,4}",
+					"start": 191.744283
+				}
+			],
+			"text": "To live with him someday."
+		},
+		{
+			"image": null,
+			"start": 192.332283,
+			"syllables": [],
+			"text": ""
+		}
+	],
+	"lyrics_animation_duration": 0.2,
+	"tint_color": 9228538,
+	"title_transition_start": 20.077282999999999,
+	"verses": [
+		{
+			"start": 21.277282999999998
+		},
+		{
+			"start": 63.313283000000009
+		},
+		{
+			"start": 106.110283
+		},
+		{
+			"start": 149.969283
+		}
+	]
+}

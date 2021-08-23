@@ -48,19 +48,21 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
+import kotlinx.serialization.decodeFromString
+import kotlinx.serialization.json.Json
 
 class MainActivity : ComponentActivity() {
 
     private val tFlow = MutableStateFlow<Float>(0F)
 
-    init {
-        bounce()
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val ballManager = getBallManager()
+        val json = assets.open("iamachildofgod.json").bufferedReader().use { it.readText() }
+        val obj = Json(builderAction = {
+            ignoreUnknownKeys = true
+        }).decodeFromString<SongData>(json)
+        val ballManager = getBallManager(obj)
 
         setContent {
             BouncyBallTheme {
@@ -70,7 +72,7 @@ class MainActivity : ComponentActivity() {
                         tFlow = tFlow,
                         onClick = {
                             Log.i("SMT", "onClick")
-                            bounce()
+                            bounce(obj)
                         },
                         ballManager = ballManager,
                         modifier = Modifier.height(100.dp)
@@ -78,13 +80,13 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+        bounce(obj)
     }
 
-    private fun getBallManager(): BallManager {
+    private fun getBallManager(songData: SongData): BallManager {
         val bounceInTime = 1
         val bounceOutTime = 1
         val ballManager = BallManager()
-        val songData = SongData.defaultData
         var first = true
 
         for (lineIndex in songData.lines.indices) {
@@ -132,9 +134,13 @@ class MainActivity : ComponentActivity() {
         return dp * context.resources.displayMetrics.density
     }
 
-    private fun bounce() = MainScope().launch {
-        tFlow.value = 21f
-        while (tFlow.value < 38F) {
+    private fun bounce(songData: SongData) = MainScope().launch {
+
+        val initTime = (songData.lines.first().start - songData.inOutBallAnimationDuration).toFloat()
+        val endTime = (songData.lines.last().start + songData.inOutBallAnimationDuration).toFloat()
+
+        tFlow.value = initTime
+        while (tFlow.value < endTime) {
             delay(3)
             tFlow.value += .005F
         }
