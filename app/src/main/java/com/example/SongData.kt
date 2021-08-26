@@ -24,10 +24,45 @@ data class SongData(
 //    val verses: List<VersesItem?>? = null,
 //    val tintColor: Int? = null
 ) {
-    fun getLine(t: Double) = lines.findLast { it.start <= t }
+    fun getLine(t: Double): LineItem {
+        val activeLine = lines.findLast { it.start <= t }
 
-    fun getNextLine(line: LineItem): LineItem? {
-        val nextLineIndex = lines.indexOf(line) + 1
+        return when {
+            activeLine == null -> { // Before the first line
+                // Create a dummy line and syllable that starts the ball off the screen
+                val start = lines.first().start - inOutBallAnimationDuration
+                val firstMidpoint = lines.first().syllables.first().horizontalMidpoint
+                val syllable = SyllableItem("{0,0}", start, "{0,0}").apply { horizontalMidpoint = 0 - firstMidpoint }
+                LineItem(start = start, text = "", syllables = listOf(syllable))
+            }
+//            getNextLine(activeLine) == null -> {
+//                val lastSyllable = activeLine.syllables.last()
+//                val syllables = activeLine.syllables.toMutableList().apply {
+//                    val newSyllable = SyllableItem("{0,0}", lastSyllable.start + inOutBallAnimationDuration, "{0,0}").apply {
+//                        horizontalMidpoint = widthPx - lastSyllable.horizontalMidpoint + 1024
+//                    }
+//                    add(newSyllable)
+//                }
+//                activeLine.copy(syllables = syllables)
+//            }
+            activeLine.syllables.isEmpty() && getNextLine(activeLine) != null -> {
+                val nextLine = getNextLine(activeLine) ?: return activeLine
+                val start = /*nextLine.start - */activeLine.start
+                val firstMidpoint = nextLine.syllables.first().horizontalMidpoint
+                val syllable = SyllableItem("{0,0}", start, "{0,0}").apply { horizontalMidpoint = 0 - firstMidpoint }
+                activeLine.copy(syllables = listOf(syllable))
+            }
+            else -> {
+                activeLine
+            }
+        }
+    }
+
+    fun getNextLine(line: LineItem?): LineItem? {
+        // line may be a copy. To make sure we use the original line get the line with the same start
+        // and use it to fine the next line
+        val originalLine = lines.find { it.start == line?.start }
+        val nextLineIndex = lines.indexOf(originalLine) + 1
         return lines.getOrNull(nextLineIndex)
     }
 }
@@ -81,13 +116,13 @@ data class LineItem(
         }
     }
 
-    fun getBallPosition(t: Double, nextLineSyllable: SyllableItem?): Pair<Int, Int> {
+    fun getBallPosition(t: Double, nextLineSyllable: SyllableItem?, widthPx: Int): Pair<Int, Int> {
         // Find the syllable for t
         val syllable = syllables.findLast { it.start < t } ?: return Pair(0, 0)
         val nextSyllable = getNextSyllable(syllable) ?: nextLineSyllable
         val x0 = syllable.horizontalMidpoint
         val t0 = syllable.start
-        val xf = nextSyllable?.horizontalMidpoint ?: x0 + 10
+        val xf = nextSyllable?.horizontalMidpoint ?: widthPx - x0 + widthPx
         val tf = nextSyllable?.start ?: syllable.start + 2.0
 
         val xPos = xPos(t, x0, t0, xf, tf)

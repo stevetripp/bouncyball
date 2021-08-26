@@ -1,7 +1,6 @@
 package com.example.bouncyball
 
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
@@ -76,7 +75,7 @@ class MainActivity : ComponentActivity() {
 
     private fun bounce(songData: SongData) = MainScope().launch {
         timer?.cancel()
-        val initTime = (songData.lines.first().start - songData.inOutBallAnimationDuration) - 3
+        val initTime = (songData.lines.first().start - songData.inOutBallAnimationDuration) - 1
         val endTime = (songData.lines.last().start + songData.inOutBallAnimationDuration)
 
         var start: Long? = null
@@ -96,45 +95,31 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun SongInfo(tFlow: Flow<Double>, onClick: () -> Unit, songInfo: SongData, modifier: Modifier = Modifier) {
     val position = tFlow.collectAsState(initial = 0.0)
-    val lineItem1 = songInfo.getLine(position.value) ?: LineItem(start = 0.0, text = "", syllables = emptyList())
-    val lineItem2 = songInfo.getNextLine(lineItem1)
-    val point = lineItem1.getBallPosition(position.value, lineItem2?.syllables?.firstOrNull())
-    Column {
-        BouncyBallRow(point, onClick = { onClick() }, modifier)
-        Text(
-            text = lineItem1.toAnnotatedString(position.value),
-            color = Color.White,
-            textAlign = TextAlign.Center,
-            modifier = Modifier.fillMaxWidth(),
-            style = MaterialTheme.typography.h5,
-            onTextLayout = { result: TextLayoutResult ->
-                Log.i(
-                    "SMT", """onTextLayout
-                    |text: ${result.layoutInput.text}
-                """.trimMargin()
-                )
-                val foo = result
-                lineItem1.setBallBouncePositions(result)
-            }
-        )
-        Text(
-            text = lineItem2?.toAnnotatedString(position.value) ?: AnnotatedString(""),
-            color = Color.White,
-            textAlign = TextAlign.Center,
-            modifier = Modifier.fillMaxWidth(),
-            style = MaterialTheme.typography.h5,
-            onTextLayout = { result: TextLayoutResult ->
-                Log.i(
-                    "SMT", """onTextLayout
-                    |text: ${result.layoutInput.text}
-                """.trimMargin()
-                )
-                val foo = result
-                lineItem2?.setBallBouncePositions(result)
-            }
-        )
+    BoxWithConstraints(modifier = Modifier.fillMaxWidth()) {
+        val widthPx = with(LocalDensity.current) { maxWidth.toPx() }.toInt()
+        val lineItem1 = songInfo.getLine(position.value)
+        val lineItem2 = songInfo.getNextLine(lineItem1)
+        val point = lineItem1.getBallPosition(position.value, lineItem2?.syllables?.firstOrNull(), widthPx)
+        Column {
+            BouncyBallRow(point, onClick = { onClick() }, modifier)
+            Text(
+                text = lineItem1.toAnnotatedString(position.value),
+                color = Color.White,
+                textAlign = TextAlign.Center,
+                modifier = Modifier.fillMaxWidth(),
+                style = MaterialTheme.typography.h5,
+            )
+            Text(
+                text = lineItem2?.toAnnotatedString(position.value) ?: AnnotatedString(""),
+                color = Color.White,
+                textAlign = TextAlign.Center,
+                modifier = Modifier.fillMaxWidth(),
+                style = MaterialTheme.typography.h5,
+                onTextLayout = { result: TextLayoutResult -> lineItem2?.setBallBouncePositions(result) }
+            )
+        }
+        Text(text = "t: ${String.format("%.3f", position.value)}  width: $widthPx", color = Color.White)
     }
-    Text(text = "t: ${String.format("%.3f", position.value)}", color = Color.White)
 }
 
 @Composable
@@ -142,9 +127,7 @@ private fun BouncyBallRow(point: Pair<Int, Int>, onClick: () -> Unit, modifier: 
 
     val (x, y) = point
 
-    Column(
-        modifier = Modifier.background(Color.Blue)
-    ) {
+    Column {
         BoxWithConstraints(
             modifier = modifier
                 .fillMaxWidth()

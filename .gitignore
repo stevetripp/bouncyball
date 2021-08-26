@@ -1,15 +1,40 @@
+# Project specifics
+
+# Temp files
+*~
+
+# NetBeans
+nb-configuration.xml
+# nbactions.xml
+
+# Eclipse
+.settings
+.classpath
+.project
+.mymetadata
+
+# IDEA
+*.ipr
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+*.iws
+.idea/
+
+# Android
+classes/
+bin/
+gen/
+out/
 local.properties
+gen-external-apklibs/
+libs/*.jar
+build/
+.gradle/
+.crashlytics_data/
+captures/
+
+# OSX
+.DS_Store
+tmp/
+
+# Other
+.firebase/
