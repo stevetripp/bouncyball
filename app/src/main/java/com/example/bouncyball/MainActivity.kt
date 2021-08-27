@@ -23,6 +23,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalDensity
@@ -75,6 +76,7 @@ class MainActivity : ComponentActivity() {
 
     private fun bounce(songData: SongData) = MainScope().launch {
         timer?.cancel()
+        tFlow.value = 0.0
         val initTime = (songData.lines.first().start - songData.inOutBallAnimationDuration) - 1
         val endTime = (songData.lines.last().start + songData.inOutBallAnimationDuration)
 
@@ -100,25 +102,65 @@ fun SongInfo(tFlow: Flow<Double>, onClick: () -> Unit, songInfo: SongData, modif
         val lineItem1 = songInfo.getLine(position.value)
         val lineItem2 = songInfo.getNextLine(lineItem1)
         val point = lineItem1.getBallPosition(position.value, lineItem2?.syllables?.firstOrNull(), widthPx)
-        Column {
+        var lineHeight: Float by remember { mutableStateOf(0F) }
+        val verticalOffset = with(LocalDensity.current) { songInfo.getVerticalOffset(position.value, lineHeight).toDp() }
+        val transitionPercentage = songInfo.getTransitionPercentage(position.value).toFloat()
+        Column(
+            modifier = Modifier
+                .background(Color.Blue)
+                .height(500.dp)
+        ) {
             BouncyBallRow(point, onClick = { onClick() }, modifier)
-            Text(
-                text = lineItem1.toAnnotatedString(position.value),
-                color = Color.White,
-                textAlign = TextAlign.Center,
-                modifier = Modifier.fillMaxWidth(),
-                style = MaterialTheme.typography.h5,
-            )
-            Text(
-                text = lineItem2?.toAnnotatedString(position.value) ?: AnnotatedString(""),
-                color = Color.White,
-                textAlign = TextAlign.Center,
-                modifier = Modifier.fillMaxWidth(),
-                style = MaterialTheme.typography.h5,
-                onTextLayout = { result: TextLayoutResult -> lineItem2?.setBallBouncePositions(result) }
-            )
+            ScrollableLines(modifier = Modifier.offset(y = verticalOffset)) {
+                ScrollableLine(
+                    annotatedString = lineItem1.toAnnotatedString(position.value),
+                    modifier = Modifier.alpha(1F - transitionPercentage)
+                )
+                ScrollableLine(
+                    annotatedString = lineItem2?.toAnnotatedString(position.value) ?: AnnotatedString(""),
+                    onTextLayout = { result: TextLayoutResult ->
+                        lineItem2?.setBallBouncePositions(result)
+                        lineHeight = result.getLineTop(0) - result.getLineBottom(0)
+                    }
+                )
+                ScrollableLine(
+                    annotatedString = songInfo.getNextLine(lineItem2)?.toAnnotatedString(position.value) ?: AnnotatedString(""),
+                    modifier = Modifier.alpha(transitionPercentage)
+                )
+            }
         }
         Text(text = "t: ${String.format("%.3f", position.value)}  width: $widthPx", color = Color.White)
+    }
+}
+
+@Composable
+fun ScrollableLines(modifier: Modifier = Modifier, composable: @Composable () -> Unit) {
+    Column(modifier = modifier) { composable() }
+}
+
+@Composable
+fun ScrollableLine(
+    annotatedString: AnnotatedString,
+    modifier: Modifier = Modifier,
+    onTextLayout: (TextLayoutResult) -> Unit = {}
+) {
+    Text(text = annotatedString,
+        color = Color.White,
+        textAlign = TextAlign.Center,
+        modifier = modifier.fillMaxWidth(),
+        style = MaterialTheme.typography.h5,
+        onTextLayout = { onTextLayout(it) }
+    )
+}
+
+@Preview
+@Composable
+private fun ScrollableLinePreview() {
+    BouncyBallTheme(true) {
+        ScrollableLine(
+            annotatedString = AnnotatedString("I am a child of God,"),
+            modifier = Modifier.alpha(1f)
+        )
     }
 }
 
@@ -177,25 +219,4 @@ fun SongInfoPreview() {
             ), modifier = Modifier.height(100.dp)
         )
     }
-}
-
-@Preview
-@Composable
-fun BallRowPreview() {
-    val tFlow = MutableStateFlow(0.0)
-    var t by remember { mutableStateOf(0) }
-    val onClick: () -> Unit = { t += 500 }
-
-    BouncyBallTheme(true) {
-        BouncyBallRow(
-            Pair(0, 0),
-            onClick = onClick,
-            modifier = Modifier.height(100.dp)
-        )//1(0.dp, 0, 0f, modifier = Modifier.height(100.dp))
-    }
-//
-//    LaunchedEffect(t) {
-//        delay(10)
-//        t += 10
-//    }
 }

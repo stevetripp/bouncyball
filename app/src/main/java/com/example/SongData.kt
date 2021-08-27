@@ -16,7 +16,7 @@ data class SongData(
     val lyricsAnimationDuration: Double = 0.2,
     val lines: List<LineItem>,
 //    @SerialName("image_transitions")
-//	val imageTransitions: List<ImageTransitionsItem?>? = null,
+//    val imageTransitions: List<ImageTransitionsItem?>? = null,
 //    @SerialName("cross_fade_image_animation_duration")
 //    val crossFadeImageAnimationDuration: Double? = null,
     @SerialName("title_transition_start")
@@ -24,27 +24,41 @@ data class SongData(
 //    val verses: List<VersesItem?>? = null,
 //    val tintColor: Int? = null
 ) {
+
+    fun getTransitionPercentage(t: Double): Double {
+        val line1 = lines.findLast { t >= it.start } ?: return 0.0
+        val line2 = getNextLine(line1) ?: return 0.0
+        val lastSyllableTime = line1.syllables.findLast { t >= it.start }?.start ?: return 0.0
+        val timeToNext = line2.start - lastSyllableTime
+
+        val transitionStart = lastSyllableTime + timeToNext / 2
+        val transitionEnd = line2.start
+        val transitionTime = transitionEnd - transitionStart
+        val timeInTransition = t - transitionStart
+        return if (timeInTransition < 0) 0.0 else timeInTransition / transitionTime
+    }
+
+    fun getVerticalOffset(t: Double, lineHeight: Float): Float {
+        val transitionPercent = getTransitionPercentage(t)
+        return if (transitionPercent > 0) {
+            (lineHeight * transitionPercent).toFloat()
+        } else {
+            0F
+        }
+    }
+
     fun getLine(t: Double): LineItem {
-        val activeLine = lines.findLast { it.start <= t }
+        val activeLine = lines.findLast { t >= it.start }
 
         return when {
             activeLine == null -> { // Before the first line
                 // Create a dummy line and syllable that starts the ball off the screen
-                val start = lines.first().start - inOutBallAnimationDuration
-                val firstMidpoint = lines.first().syllables.first().horizontalMidpoint
+                val firstLine = lines.first()
+                val start = firstLine.start - inOutBallAnimationDuration
+                val firstMidpoint = firstLine.syllables.first().horizontalMidpoint
                 val syllable = SyllableItem("{0,0}", start, "{0,0}").apply { horizontalMidpoint = 0 - firstMidpoint }
                 LineItem(start = start, text = "", syllables = listOf(syllable))
             }
-//            getNextLine(activeLine) == null -> {
-//                val lastSyllable = activeLine.syllables.last()
-//                val syllables = activeLine.syllables.toMutableList().apply {
-//                    val newSyllable = SyllableItem("{0,0}", lastSyllable.start + inOutBallAnimationDuration, "{0,0}").apply {
-//                        horizontalMidpoint = widthPx - lastSyllable.horizontalMidpoint + 1024
-//                    }
-//                    add(newSyllable)
-//                }
-//                activeLine.copy(syllables = syllables)
-//            }
             activeLine.syllables.isEmpty() && getNextLine(activeLine) != null -> {
                 val nextLine = getNextLine(activeLine) ?: return activeLine
                 val start = /*nextLine.start - */activeLine.start
@@ -118,7 +132,7 @@ data class LineItem(
 
     fun getBallPosition(t: Double, nextLineSyllable: SyllableItem?, widthPx: Int): Pair<Int, Int> {
         // Find the syllable for t
-        val syllable = syllables.findLast { it.start < t } ?: return Pair(0, 0)
+        val syllable = syllables.findLast { it.start < t } ?: return Pair(-100, 0)
         val nextSyllable = getNextSyllable(syllable) ?: nextLineSyllable
         val x0 = syllable.horizontalMidpoint
         val t0 = syllable.start
