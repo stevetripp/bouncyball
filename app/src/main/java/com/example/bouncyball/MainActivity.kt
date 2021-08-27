@@ -56,6 +56,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         val json = assets.open("iamachildofgod.json").bufferedReader().use { it.readText() }
+//        val json = assets.open("jesuswantsmeforasunbeam.json").bufferedReader().use { it.readText() }
         val songData = this.json.decodeFromString<SongData>(json)
 
         setContent {

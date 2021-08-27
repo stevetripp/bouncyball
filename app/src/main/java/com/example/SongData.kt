@@ -26,9 +26,9 @@ data class SongData(
 ) {
 
     fun getTransitionPercentage(t: Double): Double {
-        val line1 = lines.findLast { t >= it.start } ?: return 0.0
-        val line2 = getNextLine(line1) ?: return 0.0
-        val lastSyllableTime = line1.syllables.findLast { t >= it.start }?.start ?: return 0.0
+        val line1 = lines.findLast { t >= it.start } ?: LineItem(start = -1.0, text = "", syllables = listOf(SyllableItem("{0,0}", lines.first().start - inOutBallAnimationDuration, "{0,0}")))
+        val line2 = getNextLine(line1) ?: lines.first()
+        val lastSyllableTime = line1.syllables.findLast { t >= it.start }?.start ?: line2.start - inOutBallAnimationDuration
         val timeToNext = line2.start - lastSyllableTime
 
         val transitionStart = lastSyllableTime + timeToNext / 2

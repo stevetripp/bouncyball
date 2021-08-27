@@ -1,0 +1,747 @@
+{
+	"cross_fade_image_animation_duration": 0.5,
+	"image_transitions": [
+		{
+			"effect": 0,
+			"image": {
+				"color": 13551808,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x33,https://edge.ldscdn.org/mobile/images/1295980/249e176ed508401f9715971722cb7b18/50x33.jpg\n100x66,https://edge.ldscdn.org/mobile/images/1295980/249e176ed508401f9715971722cb7b18/100x66.jpg\n200x133,https://edge.ldscdn.org/mobile/images/1295980/249e176ed508401f9715971722cb7b18/200x133.jpg\n320x213,https://edge.ldscdn.org/mobile/images/1295980/249e176ed508401f9715971722cb7b18/320x213.jpg\n640x426,https://edge.ldscdn.org/mobile/images/1295980/249e176ed508401f9715971722cb7b18/640x426.jpg\n1024x682,https://edge.ldscdn.org/mobile/images/1295980/249e176ed508401f9715971722cb7b18/1024x682.jpg\n2048x1365,https://edge.ldscdn.org/mobile/images/1295980/249e176ed508401f9715971722cb7b18/2048x1365.jpg"
+			},
+			"start": 0
+		},
+		{
+			"effect": 0,
+			"image": {
+				"color": 13027007,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x33,https://edge.ldscdn.org/mobile/images/1276060/febf54eedc6748b188a03b7ee3e646b1/50x33.jpg\n100x66,https://edge.ldscdn.org/mobile/images/1276060/febf54eedc6748b188a03b7ee3e646b1/100x66.jpg\n200x133,https://edge.ldscdn.org/mobile/images/1276060/febf54eedc6748b188a03b7ee3e646b1/200x133.jpg\n320x213,https://edge.ldscdn.org/mobile/images/1276060/febf54eedc6748b188a03b7ee3e646b1/320x213.jpg\n640x426,https://edge.ldscdn.org/mobile/images/1276060/febf54eedc6748b188a03b7ee3e646b1/640x426.jpg\n1024x682,https://edge.ldscdn.org/mobile/images/1276060/febf54eedc6748b188a03b7ee3e646b1/1024x682.jpg\n2048x1365,https://edge.ldscdn.org/mobile/images/1276060/febf54eedc6748b188a03b7ee3e646b1/2048x1365.jpg"
+			},
+			"start": 17.820213
+		},
+		{
+			"effect": 1,
+			"image": {
+				"color": 13146450,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x62,https://edge.ldscdn.org/mobile/images/1378668/d267b28a0fbd46769cf479afd3c36a4e/50x62.jpg\n100x124,https://edge.ldscdn.org/mobile/images/1378668/d267b28a0fbd46769cf479afd3c36a4e/100x124.jpg\n200x249,https://edge.ldscdn.org/mobile/images/1378668/d267b28a0fbd46769cf479afd3c36a4e/200x249.jpg\n320x399,https://edge.ldscdn.org/mobile/images/1378668/d267b28a0fbd46769cf479afd3c36a4e/320x399.jpg\n640x799,https://edge.ldscdn.org/mobile/images/1378668/d267b28a0fbd46769cf479afd3c36a4e/640x799.jpg\n1024x1279,https://edge.ldscdn.org/mobile/images/1378668/d267b28a0fbd46769cf479afd3c36a4e/1024x1279.jpg"
+			},
+			"start": 31.177212999999996
+		},
+		{
+			"effect": 0,
+			"image": {
+				"color": 9076861,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x33,https://edge.ldscdn.org/mobile/images/1116075/c5e4e5ed06e04c3686296c689cd8526b/50x33.jpg\n100x66,https://edge.ldscdn.org/mobile/images/1116075/c5e4e5ed06e04c3686296c689cd8526b/100x66.jpg\n200x132,https://edge.ldscdn.org/mobile/images/1116075/c5e4e5ed06e04c3686296c689cd8526b/200x132.jpg\n320x212,https://edge.ldscdn.org/mobile/images/1116075/c5e4e5ed06e04c3686296c689cd8526b/320x212.jpg\n640x425,https://edge.ldscdn.org/mobile/images/1116075/c5e4e5ed06e04c3686296c689cd8526b/640x425.jpg\n1024x680,https://edge.ldscdn.org/mobile/images/1116075/c5e4e5ed06e04c3686296c689cd8526b/1024x680.jpg\n2048x1360,https://edge.ldscdn.org/mobile/images/1116075/c5e4e5ed06e04c3686296c689cd8526b/2048x1360.jpg"
+			},
+			"start": 44.43721299999999
+		},
+		{
+			"effect": 0,
+			"image": {
+				"color": 12101256,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x33,https://edge.ldscdn.org/mobile/images/1347377/3bb48c70c4bf4dde84b3301cbcafaa1d/50x33.jpg\n100x66,https://edge.ldscdn.org/mobile/images/1347377/3bb48c70c4bf4dde84b3301cbcafaa1d/100x66.jpg\n200x133,https://edge.ldscdn.org/mobile/images/1347377/3bb48c70c4bf4dde84b3301cbcafaa1d/200x133.jpg\n320x213,https://edge.ldscdn.org/mobile/images/1347377/3bb48c70c4bf4dde84b3301cbcafaa1d/320x213.jpg\n640x426,https://edge.ldscdn.org/mobile/images/1347377/3bb48c70c4bf4dde84b3301cbcafaa1d/640x426.jpg\n1024x682,https://edge.ldscdn.org/mobile/images/1347377/3bb48c70c4bf4dde84b3301cbcafaa1d/1024x682.jpg\n2048x1365,https://edge.ldscdn.org/mobile/images/1347377/3bb48c70c4bf4dde84b3301cbcafaa1d/2048x1365.jpg"
+			},
+			"start": 54.323212999999999
+		},
+		{
+			"effect": 1,
+			"image": {
+				"color": 2045779,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x31,https://edge.ldscdn.org/mobile/images/1169212/85d9fb8642df4cd78abf641d2170d3bc/50x31.jpg\n100x62,https://edge.ldscdn.org/mobile/images/1169212/85d9fb8642df4cd78abf641d2170d3bc/100x62.jpg\n200x125,https://edge.ldscdn.org/mobile/images/1169212/85d9fb8642df4cd78abf641d2170d3bc/200x125.jpg\n320x200,https://edge.ldscdn.org/mobile/images/1169212/85d9fb8642df4cd78abf641d2170d3bc/320x200.jpg\n640x400,https://edge.ldscdn.org/mobile/images/1169212/85d9fb8642df4cd78abf641d2170d3bc/640x400.jpg\n1024x640,https://edge.ldscdn.org/mobile/images/1169212/85d9fb8642df4cd78abf641d2170d3bc/1024x640.jpg\n2048x1280,https://edge.ldscdn.org/mobile/images/1169212/85d9fb8642df4cd78abf641d2170d3bc/2048x1280.jpg"
+			},
+			"start": 67.40621300000001
+		}
+	],
+	"in_out_ball_animation_duration": 1,
+	"lines": [
+		{
+			"start": 10.155213,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 10.155213
+				},
+				{
+					"ball_range": "{2,3}",
+					"range": "{2,3}",
+					"start": 10.395213
+				},
+				{
+					"ball_range": "{6,5}",
+					"range": "{6,5}",
+					"start": 10.735213
+				},
+				{
+					"ball_range": "{12,2}",
+					"range": "{12,2}",
+					"start": 11.087213
+				},
+				{
+					"ball_range": "{15,3}",
+					"range": "{15,3}",
+					"start": 11.468213
+				},
+				{
+					"ball_range": "{19,1}",
+					"range": "{19,1}",
+					"start": 11.851213000000002
+				},
+				{
+					"ball_range": "{21,3}",
+					"range": "{21,3}",
+					"start": 12.235213
+				},
+				{
+					"ball_range": "{24,4}",
+					"range": "{24,5}",
+					"start": 13.177213
+				}
+			],
+			"text": "Jesus wants me for a sunbeam,"
+		},
+		{
+			"image": null,
+			"start": 14.010213,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 14.010213
+				},
+				{
+					"ball_range": "{3,5}",
+					"range": "{3,5}",
+					"start": 14.443213
+				},
+				{
+					"ball_range": "{9,3}",
+					"range": "{9,3}",
+					"start": 15.129213
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 15.499213000000001
+				},
+				{
+					"ball_range": "{17,4}",
+					"range": "{17,4}",
+					"start": 16.169213
+				},
+				{
+					"ball_range": "{22,3}",
+					"range": "{22,4}",
+					"start": 16.568213
+				}
+			],
+			"text": "To shine for him each day;"
+		},
+		{
+			"start": 18.820213,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 18.820213
+				},
+				{
+					"ball_range": "{3,2}",
+					"range": "{3,2}",
+					"start": 19.156213
+				},
+				{
+					"ball_range": "{6,2}",
+					"range": "{5,3}",
+					"start": 19.475213
+				},
+				{
+					"ball_range": "{9,3}",
+					"range": "{9,3}",
+					"start": 19.817213
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 20.150213
+				},
+				{
+					"ball_range": "{17,2}",
+					"range": "{17,2}",
+					"start": 20.518213
+				},
+				{
+					"ball_range": "{20,6}",
+					"range": "{20,6}",
+					"start": 20.900213
+				},
+				{
+					"ball_range": "{27,3}",
+					"range": "{27,4}",
+					"start": 21.842213
+				}
+			],
+			"text": "In ev’ry way try to please him,"
+		},
+		{
+			"image": null,
+			"start": 22.787213,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 22.787213
+				},
+				{
+					"ball_range": "{3,4}",
+					"range": "{3,5}",
+					"start": 23.252213
+				},
+				{
+					"ball_range": "{9,2}",
+					"range": "{9,2}",
+					"start": 24.019213
+				},
+				{
+					"ball_range": "{12,6}",
+					"range": "{12,7}",
+					"start": 24.353213
+				},
+				{
+					"ball_range": "{20,2}",
+					"range": "{20,2}",
+					"start": 24.935213
+				},
+				{
+					"ball_range": "{23,4}",
+					"range": "{23,5}",
+					"start": 25.345213
+				}
+			],
+			"text": "At home, at school, at play."
+		},
+		{
+			"image": null,
+			"start": 27.443213,
+			"syllables": [
+				{
+					"ball_range": "{0,1}",
+					"range": "{0,1}",
+					"start": 27.443213
+				},
+				{
+					"ball_range": "{2,3}",
+					"range": "{2,3}",
+					"start": 27.842213
+				},
+				{
+					"ball_range": "{5,4}",
+					"range": "{5,5}",
+					"start": 28.723213
+				},
+				{
+					"ball_range": "{11,1}",
+					"range": "{11,1}",
+					"start": 29.524213
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 29.955213
+				},
+				{
+					"ball_range": "{16,4}",
+					"range": "{16,5}",
+					"start": 30.851212999999999
+				}
+			],
+			"text": "A sunbeam, a sunbeam,"
+		},
+		{
+			"start": 32.177212999999998,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 32.177212999999998
+				},
+				{
+					"ball_range": "{2,3}",
+					"range": "{2,3}",
+					"start": 32.545213
+				},
+				{
+					"ball_range": "{6,5}",
+					"range": "{6,5}",
+					"start": 32.913213
+				},
+				{
+					"ball_range": "{12,2}",
+					"range": "{12,2}",
+					"start": 33.286213
+				},
+				{
+					"ball_range": "{15,3}",
+					"range": "{15,3}",
+					"start": 33.636213
+				},
+				{
+					"ball_range": "{19,1}",
+					"range": "{19,1}",
+					"start": 34.004213
+				},
+				{
+					"ball_range": "{21,3}",
+					"range": "{21,3}",
+					"start": 34.386213
+				},
+				{
+					"ball_range": "{24,4}",
+					"range": "{24,5}",
+					"start": 35.424212999999998
+				}
+			],
+			"text": "Jesus wants me for a sunbeam."
+		},
+		{
+			"image": null,
+			"start": 36.242213,
+			"syllables": [
+				{
+					"ball_range": "{0,1}",
+					"range": "{0,1}",
+					"start": 36.242213
+				},
+				{
+					"ball_range": "{2,3}",
+					"range": "{2,3}",
+					"start": 36.656212999999997
+				},
+				{
+					"ball_range": "{5,4}",
+					"range": "{5,5}",
+					"start": 37.568213
+				},
+				{
+					"ball_range": "{11,1}",
+					"range": "{11,1}",
+					"start": 38.544213
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 38.927212999999998
+				},
+				{
+					"ball_range": "{16,4}",
+					"range": "{16,5}",
+					"start": 39.986213
+				}
+			],
+			"text": "A sunbeam, a sunbeam,"
+		},
+		{
+			"image": null,
+			"start": 41.278212999999997,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 41.278212999999997
+				},
+				{
+					"ball_range": "{5,2}",
+					"range": "{5,2}",
+					"start": 41.568213
+				},
+				{
+					"ball_range": "{8,1}",
+					"range": "{8,1}",
+					"start": 41.951212999999999
+				},
+				{
+					"ball_range": "{10,3}",
+					"range": "{10,3}",
+					"start": 42.318213
+				},
+				{
+					"ball_range": "{13,4}",
+					"range": "{13,4}",
+					"start": 42.654213
+				},
+				{
+					"ball_range": "{18,3}",
+					"range": "{18,3}",
+					"start": 43.023213
+				},
+				{
+					"ball_range": "{22,3}",
+					"range": "{22,4}",
+					"start": 43.503212999999998
+				}
+			],
+			"text": "I’ll be a sunbeam for him."
+		},
+		{
+			"start": 45.43721299999999,
+			"syllables": [],
+			"text": ""
+		},
+		{
+			"image": null,
+			"start": 46.637212999999999,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 46.637212999999999
+				},
+				{
+					"ball_range": "{2,3}",
+					"range": "{2,3}",
+					"start": 46.953213
+				},
+				{
+					"ball_range": "{6,5}",
+					"range": "{6,5}",
+					"start": 47.323212999999999
+				},
+				{
+					"ball_range": "{12,2}",
+					"range": "{12,2}",
+					"start": 47.689212999999998
+				},
+				{
+					"ball_range": "{15,2}",
+					"range": "{15,2}",
+					"start": 48.043212999999997
+				},
+				{
+					"ball_range": "{18,2}",
+					"range": "{18,2}",
+					"start": 48.425213
+				},
+				{
+					"ball_range": "{21,3}",
+					"range": "{21,3}",
+					"start": 48.825213
+				},
+				{
+					"ball_range": "{24,3}",
+					"range": "{24,3}",
+					"start": 49.754213
+				}
+			],
+			"text": "Jesus wants me to be loving"
+		},
+		{
+			"image": null,
+			"start": 50.586212999999997,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 50.586212999999997
+				},
+				{
+					"ball_range": "{4,4}",
+					"range": "{4,4}",
+					"start": 51.018212999999999
+				},
+				{
+					"ball_range": "{9,2}",
+					"range": "{9,2}",
+					"start": 51.656212999999997
+				},
+				{
+					"ball_range": "{12,3}",
+					"range": "{12,3}",
+					"start": 52.007213
+				},
+				{
+					"ball_range": "{16,1}",
+					"range": "{16,1}",
+					"start": 52.568213
+				},
+				{
+					"ball_range": "{18,3}",
+					"range": "{18,4}",
+					"start": 53.001213
+				}
+			],
+			"text": "And kind to all I see,"
+		},
+		{
+			"start": 55.323212999999999,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 55.323212999999999
+				},
+				{
+					"ball_range": "{4,3}",
+					"range": "{4,3}",
+					"start": 55.613212999999998
+				},
+				{
+					"ball_range": "{8,3}",
+					"range": "{8,3}",
+					"start": 55.978213
+				},
+				{
+					"ball_range": "{12,5}",
+					"range": "{12,5}",
+					"start": 56.349213
+				},
+				{
+					"ball_range": "{17,3}",
+					"range": "{17,3}",
+					"start": 56.701212999999999
+				},
+				{
+					"ball_range": "{21,3}",
+					"range": "{21,3}",
+					"start": 57.051213
+				},
+				{
+					"ball_range": "{25,3}",
+					"range": "{25,3}",
+					"start": 57.436212999999998
+				},
+				{
+					"ball_range": "{28,2}",
+					"range": "{28,2}",
+					"start": 58.300213
+				}
+			],
+			"text": "Showing how pleasant and happy"
+		},
+		{
+			"image": null,
+			"start": 59.101212999999997,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 59.101212999999997
+				},
+				{
+					"ball_range": "{4,3}",
+					"range": "{4,3}",
+					"start": 59.545213
+				},
+				{
+					"ball_range": "{7,3}",
+					"range": "{7,3}",
+					"start": 60.170213
+				},
+				{
+					"ball_range": "{11,3}",
+					"range": "{11,3}",
+					"start": 60.603213
+				},
+				{
+					"ball_range": "{15,3}",
+					"range": "{15,3}",
+					"start": 61.305212999999998
+				},
+				{
+					"ball_range": "{19,2}",
+					"range": "{19,3}",
+					"start": 61.736213
+				}
+			],
+			"text": "His little one can be."
+		},
+		{
+			"image": null,
+			"start": 63.817213,
+			"syllables": [
+				{
+					"ball_range": "{0,1}",
+					"range": "{0,1}",
+					"start": 63.817213
+				},
+				{
+					"ball_range": "{2,3}",
+					"range": "{2,3}",
+					"start": 64.188213
+				},
+				{
+					"ball_range": "{5,4}",
+					"range": "{5,5}",
+					"start": 65.050213
+				},
+				{
+					"ball_range": "{11,1}",
+					"range": "{11,1}",
+					"start": 65.818213
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 66.247213
+				},
+				{
+					"ball_range": "{16,4}",
+					"range": "{16,5}",
+					"start": 67.17421300000001
+				}
+			],
+			"text": "A sunbeam, a sunbeam,"
+		},
+		{
+			"start": 68.40621300000001,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 68.40621300000001
+				},
+				{
+					"ball_range": "{2,3}",
+					"range": "{2,3}",
+					"start": 68.758213
+				},
+				{
+					"ball_range": "{6,5}",
+					"range": "{6,5}",
+					"start": 69.126213
+				},
+				{
+					"ball_range": "{12,2}",
+					"range": "{12,2}",
+					"start": 69.527213
+				},
+				{
+					"ball_range": "{15,3}",
+					"range": "{15,3}",
+					"start": 69.910213
+				},
+				{
+					"ball_range": "{19,1}",
+					"range": "{19,1}",
+					"start": 70.294213
+				},
+				{
+					"ball_range": "{21,3}",
+					"range": "{21,3}",
+					"start": 70.67721300000001
+				},
+				{
+					"ball_range": "{24,4}",
+					"range": "{24,5}",
+					"start": 71.623213
+				}
+			],
+			"text": "Jesus wants me for a sunbeam."
+		},
+		{
+			"image": null,
+			"start": 72.518213,
+			"syllables": [
+				{
+					"ball_range": "{0,1}",
+					"range": "{0,1}",
+					"start": 72.518213
+				},
+				{
+					"ball_range": "{2,3}",
+					"range": "{2,3}",
+					"start": 72.950213
+				},
+				{
+					"ball_range": "{5,4}",
+					"range": "{5,5}",
+					"start": 73.89421300000001
+				},
+				{
+					"ball_range": "{11,1}",
+					"range": "{11,1}",
+					"start": 74.724213
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 75.157213
+				},
+				{
+					"ball_range": "{16,4}",
+					"range": "{16,5}",
+					"start": 76.217213
+				}
+			],
+			"text": "A sunbeam, a sunbeam,"
+		},
+		{
+			"image": null,
+			"start": 77.46021300000001,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 77.46021300000001
+				},
+				{
+					"ball_range": "{5,2}",
+					"range": "{5,2}",
+					"start": 77.795213
+				},
+				{
+					"ball_range": "{8,1}",
+					"range": "{8,1}",
+					"start": 78.15021300000001
+				},
+				{
+					"ball_range": "{10,3}",
+					"range": "{10,3}",
+					"start": 78.518213
+				},
+				{
+					"ball_range": "{13,4}",
+					"range": "{13,4}",
+					"start": 78.88821300000001
+				},
+				{
+					"ball_range": "{18,3}",
+					"range": "{18,3}",
+					"start": 79.268213
+				},
+				{
+					"ball_range": "{22,3}",
+					"range": "{22,4}",
+					"start": 79.626213
+				}
+			],
+			"text": "I’ll be a sunbeam for him."
+		},
+		{
+			"image": null,
+			"start": 82.31421300000001,
+			"syllables": [],
+			"text": ""
+		}
+	],
+	"lyrics_animation_duration": 0.2,
+	"tint_color": 9228538,
+	"title_transition_start": 7.955213,
+	"verses": [
+		{
+			"start": 9.155213
+		},
+		{
+			"start": 45.637212999999999
+		}
+	]
+}
