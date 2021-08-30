@@ -4,8 +4,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextLayoutResult
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.withStyle
+import kotlinx.serialization.Contextual
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlin.math.pow
@@ -105,6 +107,9 @@ data class LineItem(
     val text: String,
     val syllables: List<SyllableItem>
 ) {
+    @Contextual
+    var textStyle: TextStyle? = null
+
     fun toAnnotatedString(t: Double): AnnotatedString {
         // Find the current syllable
         val syllable = syllables.findLast { it.start < t }
@@ -120,8 +125,8 @@ data class LineItem(
         }
     }
 
-    fun setBallBouncePositions(textLayoutResult: TextLayoutResult) {
-        if (syllables.none { it.horizontalMidpoint < 0 }) return
+    fun setBallBouncePositions(textLayoutResult: TextLayoutResult, forceRecalculations: Boolean) {
+//        if (!forceRecalculations && syllables.none { it.horizontalMidpoint < 0 }) return
         syllables.forEach { syllable ->
             val range = syllable.range.toRange()
             val rect1 = textLayoutResult.getBoundingBox(range.first)

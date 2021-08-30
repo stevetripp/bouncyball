@@ -1,0 +1,2536 @@
+{
+	"cross_fade_image_animation_duration": 0.5,
+	"image_transitions": [
+		{
+			"effect": 1,
+			"image": {
+				"color": 9005917,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x33,https://edge.ldscdn.org/mobile/images/1379950/5dbf9b491353423fb2165b854f2f7501/50x33.jpg\n100x66,https://edge.ldscdn.org/mobile/images/1379950/5dbf9b491353423fb2165b854f2f7501/100x66.jpg\n200x133,https://edge.ldscdn.org/mobile/images/1379950/5dbf9b491353423fb2165b854f2f7501/200x133.jpg\n320x213,https://edge.ldscdn.org/mobile/images/1379950/5dbf9b491353423fb2165b854f2f7501/320x213.jpg\n640x426,https://edge.ldscdn.org/mobile/images/1379950/5dbf9b491353423fb2165b854f2f7501/640x426.jpg\n1024x682,https://edge.ldscdn.org/mobile/images/1379950/5dbf9b491353423fb2165b854f2f7501/1024x682.jpg\n2048x1365,https://edge.ldscdn.org/mobile/images/1379950/5dbf9b491353423fb2165b854f2f7501/2048x1365.jpg"
+			},
+			"start": 0
+		},
+		{
+			"effect": 0,
+			"image": {
+				"color": 6185561,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x36,https://edge.ldscdn.org/mobile/images/457616/cf6ffe17a9ce496e84f5759ad925a759/50x36.jpg\n100x72,https://edge.ldscdn.org/mobile/images/457616/cf6ffe17a9ce496e84f5759ad925a759/100x72.jpg\n200x144,https://edge.ldscdn.org/mobile/images/457616/cf6ffe17a9ce496e84f5759ad925a759/200x144.jpg\n320x231,https://edge.ldscdn.org/mobile/images/457616/cf6ffe17a9ce496e84f5759ad925a759/320x231.jpg\n640x462,https://edge.ldscdn.org/mobile/images/457616/cf6ffe17a9ce496e84f5759ad925a759/640x462.jpg\n1024x740,https://edge.ldscdn.org/mobile/images/457616/cf6ffe17a9ce496e84f5759ad925a759/1024x740.jpg\n2048x1481,https://edge.ldscdn.org/mobile/images/457616/cf6ffe17a9ce496e84f5759ad925a759/2048x1481.jpg"
+			},
+			"start": 14.614889
+		},
+		{
+			"effect": 0,
+			"image": {
+				"color": 11641487,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x33,https://edge.ldscdn.org/mobile/images/1063668/12f041fc1c2140d0b014144a3eae6228/50x33.jpg\n100x66,https://edge.ldscdn.org/mobile/images/1063668/12f041fc1c2140d0b014144a3eae6228/100x66.jpg\n200x132,https://edge.ldscdn.org/mobile/images/1063668/12f041fc1c2140d0b014144a3eae6228/200x132.jpg\n320x212,https://edge.ldscdn.org/mobile/images/1063668/12f041fc1c2140d0b014144a3eae6228/320x212.jpg\n640x425,https://edge.ldscdn.org/mobile/images/1063668/12f041fc1c2140d0b014144a3eae6228/640x425.jpg\n1024x680,https://edge.ldscdn.org/mobile/images/1063668/12f041fc1c2140d0b014144a3eae6228/1024x680.jpg\n2048x1361,https://edge.ldscdn.org/mobile/images/1063668/12f041fc1c2140d0b014144a3eae6228/2048x1361.jpg"
+			},
+			"start": 27.065889
+		},
+		{
+			"effect": 0,
+			"image": {
+				"color": 9608319,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x33,https://edge.ldscdn.org/mobile/images/1257152/0e68ef721d294d57b922f810e43d7a42/50x33.jpg\n100x66,https://edge.ldscdn.org/mobile/images/1257152/0e68ef721d294d57b922f810e43d7a42/100x66.jpg\n200x133,https://edge.ldscdn.org/mobile/images/1257152/0e68ef721d294d57b922f810e43d7a42/200x133.jpg\n320x213,https://edge.ldscdn.org/mobile/images/1257152/0e68ef721d294d57b922f810e43d7a42/320x213.jpg\n640x426,https://edge.ldscdn.org/mobile/images/1257152/0e68ef721d294d57b922f810e43d7a42/640x426.jpg\n1024x682,https://edge.ldscdn.org/mobile/images/1257152/0e68ef721d294d57b922f810e43d7a42/1024x682.jpg\n2048x1365,https://edge.ldscdn.org/mobile/images/1257152/0e68ef721d294d57b922f810e43d7a42/2048x1365.jpg"
+			},
+			"start": 37.087889000000007
+		},
+		{
+			"effect": 1,
+			"image": {
+				"color": 6514525,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": "{{0.084375,0.0},{0.725,0.39774}}",
+				"renditions": "50x69,https://edge.ldscdn.org/mobile/images/1174996/5f505140c2f44e32bf8e4f49d0b44872/50x69.jpg\n100x138,https://edge.ldscdn.org/mobile/images/1174996/5f505140c2f44e32bf8e4f49d0b44872/100x138.jpg\n200x276,https://edge.ldscdn.org/mobile/images/1174996/5f505140c2f44e32bf8e4f49d0b44872/200x276.jpg\n320x442,https://edge.ldscdn.org/mobile/images/1174996/5f505140c2f44e32bf8e4f49d0b44872/320x442.jpg\n640x885,https://edge.ldscdn.org/mobile/images/1174996/5f505140c2f44e32bf8e4f49d0b44872/640x885.jpg\n1024x1416,https://edge.ldscdn.org/mobile/images/1174996/5f505140c2f44e32bf8e4f49d0b44872/1024x1416.jpg"
+			},
+			"start": 49.073888999999997
+		},
+		{
+			"effect": 1,
+			"image": {
+				"color": 8016956,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": "{{0.615625,0.035088},{0.25,0.19882999999999998}}",
+				"renditions": "50x40,https://edge.ldscdn.org/mobile/images/1175002/0e5505e7f9324a55804618247e01ca5b/50x40.jpg\n100x80,https://edge.ldscdn.org/mobile/images/1175002/0e5505e7f9324a55804618247e01ca5b/100x80.jpg\n200x160,https://edge.ldscdn.org/mobile/images/1175002/0e5505e7f9324a55804618247e01ca5b/200x160.jpg\n320x256,https://edge.ldscdn.org/mobile/images/1175002/0e5505e7f9324a55804618247e01ca5b/320x256.jpg\n640x513,https://edge.ldscdn.org/mobile/images/1175002/0e5505e7f9324a55804618247e01ca5b/640x513.jpg\n1024x821,https://edge.ldscdn.org/mobile/images/1175002/0e5505e7f9324a55804618247e01ca5b/1024x821.jpg\n1995x1600,https://edge.ldscdn.org/mobile/images/1175002/0e5505e7f9324a55804618247e01ca5b/1995x1600.jpg"
+			},
+			"start": 61.738889
+		},
+		{
+			"effect": 1,
+			"image": {
+				"color": 8877156,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": "{{0.173437,0.109902},{0.415626,0.24592000000000003}}",
+				"renditions": "50x71,https://edge.ldscdn.org/mobile/images/1178282/d06fcfa9671a40dfb3618127a9e5b6ac/50x71.jpg\n100x143,https://edge.ldscdn.org/mobile/images/1178282/d06fcfa9671a40dfb3618127a9e5b6ac/100x143.jpg\n200x287,https://edge.ldscdn.org/mobile/images/1178282/d06fcfa9671a40dfb3618127a9e5b6ac/200x287.jpg\n320x459,https://edge.ldscdn.org/mobile/images/1178282/d06fcfa9671a40dfb3618127a9e5b6ac/320x459.jpg\n640x919,https://edge.ldscdn.org/mobile/images/1178282/d06fcfa9671a40dfb3618127a9e5b6ac/640x919.jpg\n1114x1600,https://edge.ldscdn.org/mobile/images/1178282/d06fcfa9671a40dfb3618127a9e5b6ac/1114x1600.jpg"
+			},
+			"start": 70.460889
+		},
+		{
+			"effect": 0,
+			"image": {
+				"color": 7883826,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x39,https://edge.ldscdn.org/mobile/images/1295304/0cddbf1226d9422584f475f93fe4fa39/50x39.jpg\n100x79,https://edge.ldscdn.org/mobile/images/1295304/0cddbf1226d9422584f475f93fe4fa39/100x79.jpg\n200x158,https://edge.ldscdn.org/mobile/images/1295304/0cddbf1226d9422584f475f93fe4fa39/200x158.jpg\n320x252,https://edge.ldscdn.org/mobile/images/1295304/0cddbf1226d9422584f475f93fe4fa39/320x252.jpg\n640x505,https://edge.ldscdn.org/mobile/images/1295304/0cddbf1226d9422584f475f93fe4fa39/640x505.jpg\n1024x809,https://edge.ldscdn.org/mobile/images/1295304/0cddbf1226d9422584f475f93fe4fa39/1024x809.jpg\n2048x1618,https://edge.ldscdn.org/mobile/images/1295304/0cddbf1226d9422584f475f93fe4fa39/2048x1618.jpg"
+			},
+			"start": 86.472889
+		},
+		{
+			"effect": 1,
+			"image": {
+				"color": 7959863,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x33,https://edge.ldscdn.org/mobile/images/1379379/74230c908ff84ad7aabe817b1ace9446/50x33.jpg\n100x66,https://edge.ldscdn.org/mobile/images/1379379/74230c908ff84ad7aabe817b1ace9446/100x66.jpg\n200x133,https://edge.ldscdn.org/mobile/images/1379379/74230c908ff84ad7aabe817b1ace9446/200x133.jpg\n320x213,https://edge.ldscdn.org/mobile/images/1379379/74230c908ff84ad7aabe817b1ace9446/320x213.jpg\n640x426,https://edge.ldscdn.org/mobile/images/1379379/74230c908ff84ad7aabe817b1ace9446/640x426.jpg\n1024x682,https://edge.ldscdn.org/mobile/images/1379379/74230c908ff84ad7aabe817b1ace9446/1024x682.jpg\n2048x1365,https://edge.ldscdn.org/mobile/images/1379379/74230c908ff84ad7aabe817b1ace9446/2048x1365.jpg"
+			},
+			"start": 98.83188899999999
+		},
+		{
+			"effect": 0,
+			"image": {
+				"color": 7236182,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": "{{0.315625,0.175481},{0.346875,0.15023999999999998}}",
+				"renditions": "50x65,https://edge.ldscdn.org/mobile/images/1178562/fceee2b301984acda90cf6f434750ccc/50x65.jpg\n100x130,https://edge.ldscdn.org/mobile/images/1178562/fceee2b301984acda90cf6f434750ccc/100x130.jpg\n200x260,https://edge.ldscdn.org/mobile/images/1178562/fceee2b301984acda90cf6f434750ccc/200x260.jpg\n320x416,https://edge.ldscdn.org/mobile/images/1178562/fceee2b301984acda90cf6f434750ccc/320x416.jpg\n640x832,https://edge.ldscdn.org/mobile/images/1178562/fceee2b301984acda90cf6f434750ccc/640x832.jpg\n1024x1332,https://edge.ldscdn.org/mobile/images/1178562/fceee2b301984acda90cf6f434750ccc/1024x1332.jpg\n1230x1600,https://edge.ldscdn.org/mobile/images/1178562/fceee2b301984acda90cf6f434750ccc/1230x1600.jpg"
+			},
+			"start": 111.374889
+		},
+		{
+			"effect": 0,
+			"image": {
+				"color": 7234125,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": "{{0.389062,0.054024},{0.19218800000000003,0.15655999999999998}}",
+				"renditions": "50x70,https://edge.ldscdn.org/mobile/images/1174991/44113dc51da94a6f90607d9b85e55b04/50x70.jpg\n100x141,https://edge.ldscdn.org/mobile/images/1174991/44113dc51da94a6f90607d9b85e55b04/100x141.jpg\n200x283,https://edge.ldscdn.org/mobile/images/1174991/44113dc51da94a6f90607d9b85e55b04/200x283.jpg\n320x453,https://edge.ldscdn.org/mobile/images/1174991/44113dc51da94a6f90607d9b85e55b04/320x453.jpg\n640x907,https://edge.ldscdn.org/mobile/images/1174991/44113dc51da94a6f90607d9b85e55b04/640x907.jpg\n1024x1451,https://edge.ldscdn.org/mobile/images/1174991/44113dc51da94a6f90607d9b85e55b04/1024x1451.jpg"
+			},
+			"start": 123.604889
+		},
+		{
+			"effect": 0,
+			"image": {
+				"color": 11905409,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x37,https://edge.ldscdn.org/mobile/images/1138367/65a3f2082d2d479aa1e21ee8ed095cc1/50x37.jpg\n100x74,https://edge.ldscdn.org/mobile/images/1138367/65a3f2082d2d479aa1e21ee8ed095cc1/100x74.jpg\n200x148,https://edge.ldscdn.org/mobile/images/1138367/65a3f2082d2d479aa1e21ee8ed095cc1/200x148.jpg\n320x238,https://edge.ldscdn.org/mobile/images/1138367/65a3f2082d2d479aa1e21ee8ed095cc1/320x238.jpg\n640x476,https://edge.ldscdn.org/mobile/images/1138367/65a3f2082d2d479aa1e21ee8ed095cc1/640x476.jpg\n1024x762,https://edge.ldscdn.org/mobile/images/1138367/65a3f2082d2d479aa1e21ee8ed095cc1/1024x762.jpg\n2048x1525,https://edge.ldscdn.org/mobile/images/1138367/65a3f2082d2d479aa1e21ee8ed095cc1/2048x1525.jpg"
+			},
+			"start": 135.336889
+		},
+		{
+			"effect": 0,
+			"image": {
+				"color": 7491654,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x33,https://edge.ldscdn.org/mobile/images/931388/17ca6d66f4044f439b917442a74831a6/50x33.jpg\n100x66,https://edge.ldscdn.org/mobile/images/931388/17ca6d66f4044f439b917442a74831a6/100x66.jpg\n200x132,https://edge.ldscdn.org/mobile/images/931388/17ca6d66f4044f439b917442a74831a6/200x132.jpg\n320x212,https://edge.ldscdn.org/mobile/images/931388/17ca6d66f4044f439b917442a74831a6/320x212.jpg\n640x425,https://edge.ldscdn.org/mobile/images/931388/17ca6d66f4044f439b917442a74831a6/640x425.jpg\n1024x680,https://edge.ldscdn.org/mobile/images/931388/17ca6d66f4044f439b917442a74831a6/1024x680.jpg\n2048x1360,https://edge.ldscdn.org/mobile/images/931388/17ca6d66f4044f439b917442a74831a6/2048x1360.jpg"
+			},
+			"start": 148.865889
+		},
+		{
+			"effect": 0,
+			"image": {
+				"color": 7363898,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": "{{0.154688,0.038717},{0.278124,0.186947}}",
+				"renditions": "50x70,https://edge.ldscdn.org/mobile/images/1240964/13dcc9af11064ab7824432e7f7c93a97/50x70.jpg\n100x141,https://edge.ldscdn.org/mobile/images/1240964/13dcc9af11064ab7824432e7f7c93a97/100x141.jpg\n200x282,https://edge.ldscdn.org/mobile/images/1240964/13dcc9af11064ab7824432e7f7c93a97/200x282.jpg\n320x452,https://edge.ldscdn.org/mobile/images/1240964/13dcc9af11064ab7824432e7f7c93a97/320x452.jpg\n640x904,https://edge.ldscdn.org/mobile/images/1240964/13dcc9af11064ab7824432e7f7c93a97/640x904.jpg\n1024x1447,https://edge.ldscdn.org/mobile/images/1240964/13dcc9af11064ab7824432e7f7c93a97/1024x1447.jpg"
+			},
+			"start": 160.23588900000002
+		},
+		{
+			"effect": 0,
+			"image": {
+				"color": 9458220,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": "{{0.164062,0.15621},{0.11767599999999998,0.22151099999999999}}",
+				"renditions": "50x19,https://edge.ldscdn.org/mobile/images/395857/21afb63532394262965df5cf06b53c30/50x19.jpg\n100x38,https://edge.ldscdn.org/mobile/images/395857/21afb63532394262965df5cf06b53c30/100x38.jpg\n200x76,https://edge.ldscdn.org/mobile/images/395857/21afb63532394262965df5cf06b53c30/200x76.jpg\n320x122,https://edge.ldscdn.org/mobile/images/395857/21afb63532394262965df5cf06b53c30/320x122.jpg\n640x244,https://edge.ldscdn.org/mobile/images/395857/21afb63532394262965df5cf06b53c30/640x244.jpg\n1024x390,https://edge.ldscdn.org/mobile/images/395857/21afb63532394262965df5cf06b53c30/1024x390.jpg\n2048x781,https://edge.ldscdn.org/mobile/images/395857/21afb63532394262965df5cf06b53c30/2048x781.jpg"
+			},
+			"start": 173.672889
+		},
+		{
+			"effect": 0,
+			"image": {
+				"color": 9013631,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x37,https://edge.ldscdn.org/mobile/images/1163854/e1794b566ac24032a4fc979fcf8cc98d/50x37.jpg\n100x74,https://edge.ldscdn.org/mobile/images/1163854/e1794b566ac24032a4fc979fcf8cc98d/100x74.jpg\n200x149,https://edge.ldscdn.org/mobile/images/1163854/e1794b566ac24032a4fc979fcf8cc98d/200x149.jpg\n320x239,https://edge.ldscdn.org/mobile/images/1163854/e1794b566ac24032a4fc979fcf8cc98d/320x239.jpg\n640x479,https://edge.ldscdn.org/mobile/images/1163854/e1794b566ac24032a4fc979fcf8cc98d/640x479.jpg\n1024x767,https://edge.ldscdn.org/mobile/images/1163854/e1794b566ac24032a4fc979fcf8cc98d/1024x767.jpg\n1155x866,https://edge.ldscdn.org/mobile/images/1163854/e1794b566ac24032a4fc979fcf8cc98d/1155x866.jpg"
+			},
+			"start": 186.83188900000003
+		},
+		{
+			"effect": 0,
+			"image": {
+				"color": 10190439,
+				"crop": "{{0,0},{1,1}}",
+				"region_of_interest": null,
+				"renditions": "50x61,https://edge.ldscdn.org/mobile/images/1293340/4d2f6b3cbbc2491b8591dd9a7bb9db82/50x61.jpg\n100x123,https://edge.ldscdn.org/mobile/images/1293340/4d2f6b3cbbc2491b8591dd9a7bb9db82/100x123.jpg\n200x246,https://edge.ldscdn.org/mobile/images/1293340/4d2f6b3cbbc2491b8591dd9a7bb9db82/200x246.jpg\n320x395,https://edge.ldscdn.org/mobile/images/1293340/4d2f6b3cbbc2491b8591dd9a7bb9db82/320x395.jpg\n640x790,https://edge.ldscdn.org/mobile/images/1293340/4d2f6b3cbbc2491b8591dd9a7bb9db82/640x790.jpg\n1024x1264,https://edge.ldscdn.org/mobile/images/1293340/4d2f6b3cbbc2491b8591dd9a7bb9db82/1024x1264.jpg"
+			},
+			"start": 201.55288900000003
+		}
+	],
+	"in_out_ball_animation_duration": 1,
+	"lines": [
+		{
+			"start": 13.379889,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 13.379889
+				},
+				{
+					"ball_range": "{5,2}",
+					"range": "{5,2}",
+					"start": 13.662889
+				},
+				{
+					"ball_range": "{8,3}",
+					"range": "{8,3}",
+					"start": 14.048888999999999
+				},
+				{
+					"ball_range": "{11,3}",
+					"range": "{11,3}",
+					"start": 14.464889
+				},
+				{
+					"ball_range": "{15,3}",
+					"range": "{15,3}",
+					"start": 14.897889
+				},
+				{
+					"ball_range": "{18,4}",
+					"range": "{18,4}",
+					"start": 15.262889
+				}
+			],
+			"text": "Book of Mormon stories"
+		},
+		{
+			"start": 15.614889,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 15.614889
+				},
+				{
+					"ball_range": "{5,2}",
+					"range": "{5,2}",
+					"start": 15.967889
+				},
+				{
+					"ball_range": "{8,5}",
+					"range": "{8,5}",
+					"start": 16.350889000000004
+				},
+				{
+					"ball_range": "{13,2}",
+					"range": "{13,2}",
+					"start": 16.709889
+				},
+				{
+					"ball_range": "{16,5}",
+					"range": "{16,5}",
+					"start": 17.092889
+				},
+				{
+					"ball_range": "{22,2}",
+					"range": "{22,2}",
+					"start": 17.443889
+				},
+				{
+					"ball_range": "{25,2}",
+					"range": "{25,2}",
+					"start": 17.888889
+				}
+			],
+			"text": "that my teacher tells to me"
+		},
+		{
+			"image": null,
+			"start": 19.482889,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 19.482889
+				},
+				{
+					"ball_range": "{4,1}",
+					"range": "{4,1}",
+					"start": 19.831889
+				},
+				{
+					"ball_range": "{5,4}",
+					"range": "{5,4}",
+					"start": 20.229889
+				},
+				{
+					"ball_range": "{10,3}",
+					"range": "{10,3}",
+					"start": 20.562889
+				},
+				{
+					"ball_range": "{14,2}",
+					"range": "{14,2}",
+					"start": 20.929889
+				},
+				{
+					"ball_range": "{16,3}",
+					"range": "{16,3}",
+					"start": 21.299889
+				},
+				{
+					"ball_range": "{19,4}",
+					"range": "{19,4}",
+					"start": 21.649888999999999
+				},
+				{
+					"ball_range": "{24,2}",
+					"range": "{24,2}",
+					"start": 22.049889
+				},
+				{
+					"ball_range": "{27,2}",
+					"range": "{27,2}",
+					"start": 22.434889
+				},
+				{
+					"ball_range": "{29,5}",
+					"range": "{29,5}",
+					"start": 22.767889
+				},
+				{
+					"ball_range": "{35,3}",
+					"range": "{35,3}",
+					"start": 23.171889
+				},
+				{
+					"ball_range": "{38,2}",
+					"range": "{38,2}",
+					"start": 23.542889
+				},
+				{
+					"ball_range": "{40,2}",
+					"range": "{40,3}",
+					"start": 23.918889
+				}
+			],
+			"text": "Are about the Lamanites in ancient history."
+		},
+		{
+			"image": null,
+			"start": 25.463888999999999,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 25.463888999999999
+				},
+				{
+					"ball_range": "{5,1}",
+					"range": "{5,1}",
+					"start": 25.903889
+				},
+				{
+					"ball_range": "{6,2}",
+					"range": "{6,2}",
+					"start": 26.287889
+				},
+				{
+					"ball_range": "{9,5}",
+					"range": "{9,5}",
+					"start": 26.615889
+				},
+				{
+					"ball_range": "{15,2}",
+					"range": "{15,2}",
+					"start": 26.996889
+				},
+				{
+					"ball_range": "{17,5}",
+					"range": "{17,5}",
+					"start": 27.350889
+				},
+				{
+					"ball_range": "{23,4}",
+					"range": "{23,4}",
+					"start": 27.714889
+				}
+			],
+			"text": "Long ago their fathers came"
+		},
+		{
+			"start": 28.065889,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 28.065889
+				},
+				{
+					"ball_range": "{5,3}",
+					"range": "{5,3}",
+					"start": 28.432889
+				},
+				{
+					"ball_range": "{9,1}",
+					"range": "{9,1}",
+					"start": 28.821889
+				},
+				{
+					"ball_range": "{10,5}",
+					"range": "{10,5}",
+					"start": 29.237889
+				},
+				{
+					"ball_range": "{16,3}",
+					"range": "{16,3}",
+					"start": 29.586889
+				},
+				{
+					"ball_range": "{20,3}",
+					"range": "{20,4}",
+					"start": 29.969889
+				}
+			],
+			"text": "from far across the sea,"
+		},
+		{
+			"image": null,
+			"start": 31.514889,
+			"syllables": [
+				{
+					"ball_range": "{0,5}",
+					"range": "{0,5}",
+					"start": 31.514889
+				},
+				{
+					"ball_range": "{6,3}",
+					"range": "{6,3}",
+					"start": 31.891889
+				},
+				{
+					"ball_range": "{10,4}",
+					"range": "{10,4}",
+					"start": 32.423889
+				},
+				{
+					"ball_range": "{15,2}",
+					"range": "{15,2}",
+					"start": 33.121888999999999
+				},
+				{
+					"ball_range": "{18,4}",
+					"range": "{18,4}",
+					"start": 33.474889000000008
+				},
+				{
+					"ball_range": "{23,5}",
+					"range": "{23,5}",
+					"start": 33.878889
+				},
+				{
+					"ball_range": "{29,5}",
+					"range": "{29,5}",
+					"start": 34.649889
+				},
+				{
+					"ball_range": "{34,4}",
+					"range": "{34,4}",
+					"start": 35.466888999999998
+				},
+				{
+					"ball_range": "{38,2}",
+					"range": "{38,3}",
+					"start": 36.219888999999998
+				}
+			],
+			"text": "Giv’n the land if they lived righteously."
+		},
+		{
+			"image": null,
+			"start": 36.887889,
+			"syllables": [],
+			"text": ""
+		},
+		{
+			"start": 38.087889000000007,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 38.087889000000007
+				},
+				{
+					"ball_range": "{2,3}",
+					"range": "{2,3}",
+					"start": 38.389889
+				},
+				{
+					"ball_range": "{5,4}",
+					"range": "{5,4}",
+					"start": 38.758888999999999
+				},
+				{
+					"ball_range": "{10,3}",
+					"range": "{10,3}",
+					"start": 39.124888999999999
+				},
+				{
+					"ball_range": "{14,3}",
+					"range": "{14,3}",
+					"start": 39.501889000000009
+				},
+				{
+					"ball_range": "{17,3}",
+					"range": "{17,3}",
+					"start": 39.803889
+				}
+			],
+			"text": "Lamanites met others"
+		},
+		{
+			"image": null,
+			"start": 40.190889,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 40.190889
+				},
+				{
+					"ball_range": "{4,4}",
+					"range": "{4,4}",
+					"start": 40.570888999999997
+				},
+				{
+					"ball_range": "{9,4}",
+					"range": "{9,4}",
+					"start": 40.969888999999998
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 41.337889000000007
+				},
+				{
+					"ball_range": "{17,3}",
+					"range": "{17,3}",
+					"start": 41.707888999999997
+				},
+				{
+					"ball_range": "{20,2}",
+					"range": "{20,2}",
+					"start": 42.108889000000008
+				},
+				{
+					"ball_range": "{22,2}",
+					"range": "{22,3}",
+					"start": 42.457888999999997
+				}
+			],
+			"text": "who were seeking liberty,"
+		},
+		{
+			"image": null,
+			"start": 44.073888999999997,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 44.073888999999997
+				},
+				{
+					"ball_range": "{4,3}",
+					"range": "{4,3}",
+					"start": 44.393889
+				},
+				{
+					"ball_range": "{8,4}",
+					"range": "{8,4}",
+					"start": 44.79388899999999
+				},
+				{
+					"ball_range": "{13,4}",
+					"range": "{13,4}",
+					"start": 45.145889
+				},
+				{
+					"ball_range": "{18,3}",
+					"range": "{18,3}",
+					"start": 45.512889
+				},
+				{
+					"ball_range": "{21,5}",
+					"range": "{21,5}",
+					"start": 45.871888999999999
+				},
+				{
+					"ball_range": "{27,3}",
+					"range": "{27,3}",
+					"start": 46.221889000000007
+				}
+			],
+			"text": "And the land soon welcomed all"
+		},
+		{
+			"image": null,
+			"start": 46.572889,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 46.572889
+				},
+				{
+					"ball_range": "{4,4}",
+					"range": "{4,4}",
+					"start": 46.975888999999998
+				},
+				{
+					"ball_range": "{8,2}",
+					"range": "{8,2}",
+					"start": 47.325889000000007
+				},
+				{
+					"ball_range": "{11,2}",
+					"range": "{11,2}",
+					"start": 47.744889
+				},
+				{
+					"ball_range": "{14,2}",
+					"range": "{14,2}",
+					"start": 48.158889
+				},
+				{
+					"ball_range": "{17,4}",
+					"range": "{17,5}",
+					"start": 48.590889000000007
+				}
+			],
+			"text": "who wanted to be free."
+		},
+		{
+			"start": 50.073888999999997,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 50.073888999999997
+				},
+				{
+					"ball_range": "{5,2}",
+					"range": "{5,2}",
+					"start": 50.463888999999998
+				},
+				{
+					"ball_range": "{8,3}",
+					"range": "{8,3}",
+					"start": 50.877888999999999
+				},
+				{
+					"ball_range": "{11,3}",
+					"range": "{11,3}",
+					"start": 51.227889000000008
+				},
+				{
+					"ball_range": "{15,3}",
+					"range": "{15,3}",
+					"start": 51.627888999999999
+				},
+				{
+					"ball_range": "{18,4}",
+					"range": "{18,4}",
+					"start": 51.994889
+				},
+				{
+					"ball_range": "{23,3}",
+					"range": "{23,3}",
+					"start": 52.364889000000008
+				},
+				{
+					"ball_range": "{27,4}",
+					"range": "{27,4}",
+					"start": 52.713888999999998
+				}
+			],
+			"text": "Book of Mormon stories say that"
+		},
+		{
+			"image": null,
+			"start": 53.076888999999997,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 53.076888999999997
+				},
+				{
+					"ball_range": "{3,4}",
+					"range": "{3,4}",
+					"start": 53.456889000000007
+				},
+				{
+					"ball_range": "{8,5}",
+					"range": "{8,5}",
+					"start": 53.810889
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 54.196889
+				},
+				{
+					"ball_range": "{17,2}",
+					"range": "{17,3}",
+					"start": 54.557889
+				}
+			],
+			"text": "we must brothers be,"
+		},
+		{
+			"image": null,
+			"start": 56.127888999999999,
+			"syllables": [
+				{
+					"ball_range": "{0,5}",
+					"range": "{0,5}",
+					"start": 56.127888999999999
+				},
+				{
+					"ball_range": "{6,3}",
+					"range": "{6,3}",
+					"start": 56.515889
+				},
+				{
+					"ball_range": "{10,4}",
+					"range": "{10,4}",
+					"start": 56.944889
+				},
+				{
+					"ball_range": "{15,2}",
+					"range": "{15,2}",
+					"start": 57.646889
+				},
+				{
+					"ball_range": "{18,2}",
+					"range": "{18,2}",
+					"start": 58.015889
+				},
+				{
+					"ball_range": "{21,4}",
+					"range": "{21,4}",
+					"start": 58.448888999999997
+				},
+				{
+					"ball_range": "{26,5}",
+					"range": "{26,5}",
+					"start": 59.295889
+				},
+				{
+					"ball_range": "{31,4}",
+					"range": "{31,4}",
+					"start": 60.048889
+				},
+				{
+					"ball_range": "{35,2}",
+					"range": "{35,3}",
+					"start": 60.893889
+				}
+			],
+			"text": "Giv’n the land if we live righteously."
+		},
+		{
+			"image": null,
+			"start": 61.508888999999999,
+			"syllables": [],
+			"text": ""
+		},
+		{
+			"start": 62.738889,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 62.738889
+				},
+				{
+					"ball_range": "{2,2}",
+					"range": "{2,2}",
+					"start": 63.054889
+				},
+				{
+					"ball_range": "{5,3}",
+					"range": "{5,3}",
+					"start": 63.462889000000007
+				},
+				{
+					"ball_range": "{9,2}",
+					"range": "{9,2}",
+					"start": 63.838888999999998
+				},
+				{
+					"ball_range": "{11,3}",
+					"range": "{11,3}",
+					"start": 64.255889
+				},
+				{
+					"ball_range": "{14,5}",
+					"range": "{14,6}",
+					"start": 64.613889
+				}
+			],
+			"text": "Alma was rebellious,"
+		},
+		{
+			"image": null,
+			"start": 64.997889,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 64.997889
+				},
+				{
+					"ball_range": "{4,2}",
+					"range": "{4,2}",
+					"start": 65.330889
+				},
+				{
+					"ball_range": "{7,6}",
+					"range": "{7,6}",
+					"start": 65.680889
+				},
+				{
+					"ball_range": "{14,1}",
+					"range": "{14,1}",
+					"start": 66.085889
+				},
+				{
+					"ball_range": "{15,6}",
+					"range": "{15,6}",
+					"start": 66.46888899999999
+				},
+				{
+					"ball_range": "{22,3}",
+					"range": "{22,3}",
+					"start": 66.833889
+				},
+				{
+					"ball_range": "{26,5}",
+					"range": "{26,6}",
+					"start": 67.28488899999999
+				}
+			],
+			"text": "and he fought against the right."
+		},
+		{
+			"image": null,
+			"start": 68.770889,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 68.770889
+				},
+				{
+					"ball_range": "{5,3}",
+					"range": "{5,3}",
+					"start": 69.13888899999999
+				},
+				{
+					"ball_range": "{9,3}",
+					"range": "{9,3}",
+					"start": 69.571889
+				},
+				{
+					"ball_range": "{13,2}",
+					"range": "{13,2}",
+					"start": 69.930889
+				},
+				{
+					"ball_range": "{16,2}",
+					"range": "{16,2}",
+					"start": 70.312889
+				},
+				{
+					"ball_range": "{18,3}",
+					"range": "{18,3}",
+					"start": 70.691889
+				},
+				{
+					"ball_range": "{22,4}",
+					"range": "{22,4}",
+					"start": 71.092889
+				}
+			],
+			"text": "Then one day an angel came"
+		},
+		{
+			"start": 71.460889,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 71.460889
+				},
+				{
+					"ball_range": "{3,4}",
+					"range": "{3,4}",
+					"start": 71.83188899999999
+				},
+				{
+					"ball_range": "{8,3}",
+					"range": "{8,3}",
+					"start": 72.201889
+				},
+				{
+					"ball_range": "{12,2}",
+					"range": "{12,2}",
+					"start": 72.586889
+				},
+				{
+					"ball_range": "{15,3}",
+					"range": "{15,3}",
+					"start": 72.984889
+				},
+				{
+					"ball_range": "{19,5}",
+					"range": "{19,6}",
+					"start": 73.384889
+				}
+			],
+			"text": "to turn him to the light."
+		},
+		{
+			"image": null,
+			"start": 74.90088899999999,
+			"syllables": [
+				{
+					"ball_range": "{0,6}",
+					"range": "{0,6}",
+					"start": 74.90088899999999
+				},
+				{
+					"ball_range": "{7,2}",
+					"range": "{7,2}",
+					"start": 75.271889
+				},
+				{
+					"ball_range": "{9,4}",
+					"range": "{9,4}",
+					"start": 75.63888899999999
+				},
+				{
+					"ball_range": "{14,3}",
+					"range": "{14,3}",
+					"start": 76.023889
+				},
+				{
+					"ball_range": "{18,5}",
+					"range": "{18,5}",
+					"start": 76.390889
+				},
+				{
+					"ball_range": "{23,3}",
+					"range": "{23,4}",
+					"start": 76.76688899999999
+				}
+			],
+			"text": "Struck before his brethren,"
+		},
+		{
+			"image": null,
+			"start": 77.175889,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 77.175889
+				},
+				{
+					"ball_range": "{2,2}",
+					"range": "{2,2}",
+					"start": 77.536889
+				},
+				{
+					"ball_range": "{5,7}",
+					"range": "{5,7}",
+					"start": 77.895889
+				},
+				{
+					"ball_range": "{13,2}",
+					"range": "{13,2}",
+					"start": 78.23688899999999
+				},
+				{
+					"ball_range": "{15,3}",
+					"range": "{15,3}",
+					"start": 78.604889
+				},
+				{
+					"ball_range": "{18,1}",
+					"range": "{18,1}",
+					"start": 78.95388899999999
+				},
+				{
+					"ball_range": "{19,2}",
+					"range": "{19,3}",
+					"start": 79.40388899999999
+				}
+			],
+			"text": "Alma learned humility."
+		},
+		{
+			"image": null,
+			"start": 80.90388899999999,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 80.90388899999999
+				},
+				{
+					"ball_range": "{5,2}",
+					"range": "{5,2}",
+					"start": 81.291889
+				},
+				{
+					"ball_range": "{8,6}",
+					"range": "{8,6}",
+					"start": 81.758889
+				},
+				{
+					"ball_range": "{15,2}",
+					"range": "{15,2}",
+					"start": 82.440889
+				},
+				{
+					"ball_range": "{18,3}",
+					"range": "{18,3}",
+					"start": 82.826889
+				},
+				{
+					"ball_range": "{22,4}",
+					"range": "{22,4}",
+					"start": 83.293889
+				},
+				{
+					"ball_range": "{27,5}",
+					"range": "{27,5}",
+					"start": 84.107889
+				},
+				{
+					"ball_range": "{32,4}",
+					"range": "{32,4}",
+					"start": 84.905889
+				},
+				{
+					"ball_range": "{36,2}",
+					"range": "{36,3}",
+					"start": 85.70988899999999
+				}
+			],
+			"text": "Then he taught in the land righteously."
+		},
+		{
+			"start": 87.472889,
+			"syllables": [
+				{
+					"ball_range": "{0,5}",
+					"range": "{0,5}",
+					"start": 87.472889
+				},
+				{
+					"ball_range": "{6,3}",
+					"range": "{6,3}",
+					"start": 87.841889
+				},
+				{
+					"ball_range": "{9,3}",
+					"range": "{9,3}",
+					"start": 88.23988899999999
+				},
+				{
+					"ball_range": "{13,1}",
+					"range": "{13,1}",
+					"start": 88.62388899999999
+				},
+				{
+					"ball_range": "{14,2}",
+					"range": "{14,2}",
+					"start": 89.026889
+				},
+				{
+					"ball_range": "{16,2}",
+					"range": "{16,2}",
+					"start": 89.393889
+				},
+				{
+					"ball_range": "{18,2}",
+					"range": "{18,3}",
+					"start": 89.75788899999999
+				}
+			],
+			"text": "Don’t forget Abinadi,"
+		},
+		{
+			"image": null,
+			"start": 90.145889,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 90.145889
+				},
+				{
+					"ball_range": "{4,5}",
+					"range": "{4,5}",
+					"start": 90.54088899999999
+				},
+				{
+					"ball_range": "{10,2}",
+					"range": "{10,2}",
+					"start": 90.928889
+				},
+				{
+					"ball_range": "{12,4}",
+					"range": "{12,4}",
+					"start": 91.329889
+				},
+				{
+					"ball_range": "{17,3}",
+					"range": "{17,3}",
+					"start": 91.694889
+				},
+				{
+					"ball_range": "{21,4}",
+					"range": "{21,5}",
+					"start": 92.113889
+				}
+			],
+			"text": "who stood before the king."
+		},
+		{
+			"image": null,
+			"start": 93.71888899999999,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 93.71888899999999
+				},
+				{
+					"ball_range": "{4,7}",
+					"range": "{4,7}",
+					"start": 94.067889
+				},
+				{
+					"ball_range": "{12,2}",
+					"range": "{12,2}",
+					"start": 94.512889
+				},
+				{
+					"ball_range": "{15,4}",
+					"range": "{15,4}",
+					"start": 94.818889
+				},
+				{
+					"ball_range": "{20,4}",
+					"range": "{20,4}",
+					"start": 95.201889
+				},
+				{
+					"ball_range": "{25,2}",
+					"range": "{25,2}",
+					"start": 95.558889
+				},
+				{
+					"ball_range": "{28,3}",
+					"range": "{28,4}",
+					"start": 95.925889
+				}
+			],
+			"text": "All chained up from head to toe,"
+		},
+		{
+			"image": null,
+			"start": 96.280889,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 96.280889
+				},
+				{
+					"ball_range": "{4,3}",
+					"range": "{4,3}",
+					"start": 96.64488899999999
+				},
+				{
+					"ball_range": "{7,3}",
+					"range": "{7,3}",
+					"start": 97.062889
+				},
+				{
+					"ball_range": "{11,2}",
+					"range": "{11,2}",
+					"start": 97.443889
+				},
+				{
+					"ball_range": "{14,3}",
+					"range": "{14,3}",
+					"start": 97.845889
+				},
+				{
+					"ball_range": "{18,5}",
+					"range": "{18,6}",
+					"start": 98.26388899999999
+				}
+			],
+			"text": "the gospel he did bring."
+		},
+		{
+			"start": 99.83188899999999,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 99.83188899999999
+				},
+				{
+					"ball_range": "{3,2}",
+					"range": "{3,2}",
+					"start": 100.231889
+				},
+				{
+					"ball_range": "{6,5}",
+					"range": "{6,5}",
+					"start": 100.597889
+				},
+				{
+					"ball_range": "{12,2}",
+					"range": "{12,2}",
+					"start": 100.948889
+				},
+				{
+					"ball_range": "{14,2}",
+					"range": "{14,2}",
+					"start": 101.319889
+				},
+				{
+					"ball_range": "{17,2}",
+					"range": "{17,3}",
+					"start": 101.720889
+				}
+			],
+			"text": "If he would deny it,"
+		},
+		{
+			"image": null,
+			"start": 102.100889,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 102.100889
+				},
+				{
+					"ball_range": "{5,3}",
+					"range": "{5,3}",
+					"start": 102.446889
+				},
+				{
+					"ball_range": "{9,4}",
+					"range": "{9,4}",
+					"start": 102.85288899999999
+				},
+				{
+					"ball_range": "{14,5}",
+					"range": "{14,5}",
+					"start": 103.220889
+				},
+				{
+					"ball_range": "{20,3}",
+					"range": "{20,3}",
+					"start": 103.621889
+				},
+				{
+					"ball_range": "{24,3}",
+					"range": "{24,3}",
+					"start": 103.972889
+				},
+				{
+					"ball_range": "{28,4}",
+					"range": "{28,5}",
+					"start": 104.377889
+				}
+			],
+			"text": "then the king would set him free."
+		},
+		{
+			"image": null,
+			"start": 105.934889,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 105.934889
+				},
+				{
+					"ball_range": "{3,3}",
+					"range": "{3,3}",
+					"start": 106.283889
+				},
+				{
+					"ball_range": "{7,4}",
+					"range": "{7,5}",
+					"start": 106.634889
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 107.418889
+				},
+				{
+					"ball_range": "{17,2}",
+					"range": "{17,2}",
+					"start": 107.797889
+				},
+				{
+					"ball_range": "{20,4}",
+					"range": "{20,4}",
+					"start": 108.19788899999999
+				},
+				{
+					"ball_range": "{25,5}",
+					"range": "{25,5}",
+					"start": 108.984889
+				},
+				{
+					"ball_range": "{30,4}",
+					"range": "{30,4}",
+					"start": 109.719889
+				},
+				{
+					"ball_range": "{34,2}",
+					"range": "{34,3}",
+					"start": 110.553889
+				}
+			],
+			"text": "He was true, and he died righteously."
+		},
+		{
+			"image": null,
+			"start": 111.174889,
+			"syllables": [],
+			"text": ""
+		},
+		{
+			"start": 112.374889,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 112.374889
+				},
+				{
+					"ball_range": "{2,3}",
+					"range": "{2,3}",
+					"start": 112.75788899999999
+				},
+				{
+					"ball_range": "{6,3}",
+					"range": "{6,3}",
+					"start": 113.157889
+				},
+				{
+					"ball_range": "{10,1}",
+					"range": "{10,1}",
+					"start": 113.549889
+				},
+				{
+					"ball_range": "{12,3}",
+					"range": "{12,3}",
+					"start": 113.95388899999999
+				},
+				{
+					"ball_range": "{15,4}",
+					"range": "{15,4}",
+					"start": 114.32588899999999
+				},
+				{
+					"ball_range": "{19,2}",
+					"range": "{19,2}",
+					"start": 114.699889
+				},
+				{
+					"ball_range": "{21,1}",
+					"range": "{21,1}",
+					"start": 115.068889
+				}
+			],
+			"text": "Ammon was a missionary"
+		},
+		{
+			"image": null,
+			"start": 115.452889,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 115.452889
+				},
+				{
+					"ball_range": "{4,3}",
+					"range": "{4,3}",
+					"start": 115.821889
+				},
+				{
+					"ball_range": "{8,2}",
+					"range": "{8,2}",
+					"start": 116.201889
+				},
+				{
+					"ball_range": "{10,3}",
+					"range": "{10,3}",
+					"start": 116.569889
+				},
+				{
+					"ball_range": "{13,4}",
+					"range": "{13,5}",
+					"start": 116.987889
+				}
+			],
+			"text": "serving Lamanites,"
+		},
+		{
+			"image": null,
+			"start": 118.50488899999999,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 118.50488899999999
+				},
+				{
+					"ball_range": "{4,3}",
+					"range": "{4,3}",
+					"start": 118.868889
+				},
+				{
+					"ball_range": "{8,4}",
+					"range": "{8,4}",
+					"start": 119.22188899999999
+				},
+				{
+					"ball_range": "{13,2}",
+					"range": "{13,2}",
+					"start": 119.607889
+				},
+				{
+					"ball_range": "{15,2}",
+					"range": "{15,2}",
+					"start": 120.011889
+				},
+				{
+					"ball_range": "{17,4}",
+					"range": "{17,4}",
+					"start": 120.375889
+				},
+				{
+					"ball_range": "{22,5}",
+					"range": "{22,5}",
+					"start": 120.725889
+				}
+			],
+			"text": "Tending King Lamoni’s sheep"
+		},
+		{
+			"image": null,
+			"start": 121.127889,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 121.127889
+				},
+				{
+					"ball_range": "{4,3}",
+					"range": "{4,3}",
+					"start": 121.502889
+				},
+				{
+					"ball_range": "{7,4}",
+					"range": "{7,4}",
+					"start": 121.862889
+				},
+				{
+					"ball_range": "{12,4}",
+					"range": "{12,4}",
+					"start": 122.279889
+				},
+				{
+					"ball_range": "{17,3}",
+					"range": "{17,3}",
+					"start": 122.62988899999999
+				},
+				{
+					"ball_range": "{21,6}",
+					"range": "{21,7}",
+					"start": 123.070889
+				}
+			],
+			"text": "for several days and nights."
+		},
+		{
+			"start": 124.604889,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 124.604889
+				},
+				{
+					"ball_range": "{3,4}",
+					"range": "{3,4}",
+					"start": 124.973889
+				},
+				{
+					"ball_range": "{8,4}",
+					"range": "{8,5}",
+					"start": 125.34088899999999
+				},
+				{
+					"ball_range": "{14,2}",
+					"range": "{14,2}",
+					"start": 125.741889
+				},
+				{
+					"ball_range": "{17,5}",
+					"range": "{17,5}",
+					"start": 126.172889
+				},
+				{
+					"ball_range": "{23,3}",
+					"range": "{23,3}",
+					"start": 126.505889
+				},
+				{
+					"ball_range": "{27,5}",
+					"range": "{27,5}",
+					"start": 126.89488899999999
+				}
+			],
+			"text": "Robbers came; he saved the sheep"
+		},
+		{
+			"image": null,
+			"start": 127.273889,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 127.273889
+				},
+				{
+					"ball_range": "{3,5}",
+					"range": "{3,5}",
+					"start": 127.672889
+				},
+				{
+					"ball_range": "{8,3}",
+					"range": "{8,3}",
+					"start": 128.043889
+				},
+				{
+					"ball_range": "{12,4}",
+					"range": "{12,4}",
+					"start": 128.410889
+				},
+				{
+					"ball_range": "{16,4}",
+					"range": "{16,4}",
+					"start": 128.791889
+				},
+				{
+					"ball_range": "{20,2}",
+					"range": "{20,3}",
+					"start": 129.223889
+				}
+			],
+			"text": "by fighting fearlessly."
+		},
+		{
+			"image": null,
+			"start": 130.728889,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 130.728889
+				},
+				{
+					"ball_range": "{3,3}",
+					"range": "{3,3}",
+					"start": 131.11088900000002
+				},
+				{
+					"ball_range": "{7,7}",
+					"range": "{7,7}",
+					"start": 131.574889
+				},
+				{
+					"ball_range": "{15,2}",
+					"range": "{15,2}",
+					"start": 132.333889
+				},
+				{
+					"ball_range": "{18,5}",
+					"range": "{18,5}",
+					"start": 132.709889
+				},
+				{
+					"ball_range": "{24,4}",
+					"range": "{24,4}",
+					"start": 133.14688900000003
+				},
+				{
+					"ball_range": "{29,5}",
+					"range": "{29,5}",
+					"start": 133.97988900000002
+				},
+				{
+					"ball_range": "{34,4}",
+					"range": "{34,4}",
+					"start": 134.678889
+				},
+				{
+					"ball_range": "{38,2}",
+					"range": "{38,3}",
+					"start": 135.477889
+				}
+			],
+			"text": "He had learned he could live righteously."
+		},
+		{
+			"image": null,
+			"start": 137.173889,
+			"syllables": [],
+			"text": ""
+		},
+		{
+			"start": 136.336889,
+			"syllables": [],
+			"text": ""
+		},
+		{
+			"image": null,
+			"start": 137.536889,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 137.536889
+				},
+				{
+					"ball_range": "{5,3}",
+					"range": "{5,3}",
+					"start": 137.86088900000002
+				},
+				{
+					"ball_range": "{9,4}",
+					"range": "{9,4}",
+					"start": 138.210889
+				},
+				{
+					"ball_range": "{13,4}",
+					"range": "{13,4}",
+					"start": 138.562889
+				},
+				{
+					"ball_range": "{18,4}",
+					"range": "{18,4}",
+					"start": 138.930889
+				},
+				{
+					"ball_range": "{23,2}",
+					"range": "{23,2}",
+					"start": 139.299889
+				},
+				{
+					"ball_range": "{26,3}",
+					"range": "{26,3}",
+					"start": 139.697889
+				}
+			],
+			"text": "Once two thousand sons of God"
+		},
+		{
+			"image": null,
+			"start": 140.041889,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 140.041889
+				},
+				{
+					"ball_range": "{5,6}",
+					"range": "{5,6}",
+					"start": 140.48088900000003
+				},
+				{
+					"ball_range": "{12,2}",
+					"range": "{12,2}",
+					"start": 140.864889
+				},
+				{
+					"ball_range": "{15,5}",
+					"range": "{15,5}",
+					"start": 141.24988900000003
+				},
+				{
+					"ball_range": "{21,3}",
+					"range": "{21,3}",
+					"start": 141.61688900000002
+				},
+				{
+					"ball_range": "{25,3}",
+					"range": "{25,4}",
+					"start": 142.114889
+				}
+			],
+			"text": "were called to fight the foe."
+		},
+		{
+			"image": null,
+			"start": 143.643889,
+			"syllables": [
+				{
+					"ball_range": "{0,5}",
+					"range": "{0,5}",
+					"start": 143.643889
+				},
+				{
+					"ball_range": "{5,3}",
+					"range": "{5,3}",
+					"start": 144.083889
+				},
+				{
+					"ball_range": "{9,2}",
+					"range": "{9,2}",
+					"start": 144.43288900000003
+				},
+				{
+					"ball_range": "{12,2}",
+					"range": "{12,2}",
+					"start": 144.788889
+				},
+				{
+					"ball_range": "{15,2}",
+					"range": "{15,2}",
+					"start": 145.17088900000003
+				},
+				{
+					"ball_range": "{17,2}",
+					"range": "{17,2}",
+					"start": 145.55288900000003
+				},
+				{
+					"ball_range": "{20,2}",
+					"range": "{20,2}",
+					"start": 145.943889
+				},
+				{
+					"ball_range": "{22,2}",
+					"range": "{22,2}",
+					"start": 146.31988900000003
+				},
+				{
+					"ball_range": "{25,3}",
+					"range": "{25,3}",
+					"start": 146.68888900000003
+				},
+				{
+					"ball_range": "{28,3}",
+					"range": "{28,3}",
+					"start": 147.04088900000003
+				},
+				{
+					"ball_range": "{32,4}",
+					"range": "{32,4}",
+					"start": 147.472889
+				},
+				{
+					"ball_range": "{37,3}",
+					"range": "{37,3}",
+					"start": 147.829889
+				},
+				{
+					"ball_range": "{41,2}",
+					"range": "{41,3}",
+					"start": 148.27188900000003
+				}
+			],
+			"text": "Marching as an army into battle they did go."
+		},
+		{
+			"start": 149.865889,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 149.865889
+				},
+				{
+					"ball_range": "{5,2}",
+					"range": "{5,2}",
+					"start": 150.184889
+				},
+				{
+					"ball_range": "{7,6}",
+					"range": "{7,6}",
+					"start": 150.56488900000003
+				},
+				{
+					"ball_range": "{14,4}",
+					"range": "{14,4}",
+					"start": 150.95088900000003
+				},
+				{
+					"ball_range": "{19,6}",
+					"range": "{19,6}",
+					"start": 151.352889
+				},
+				{
+					"ball_range": "{26,3}",
+					"range": "{26,3}",
+					"start": 151.732889
+				},
+				{
+					"ball_range": "{30,4}",
+					"range": "{30,4}",
+					"start": 152.11788900000003
+				}
+			],
+			"text": "They believed that Christ the Lord"
+		},
+		{
+			"image": null,
+			"start": 152.48688900000003,
+			"syllables": [
+				{
+					"ball_range": "{0,5}",
+					"range": "{0,5}",
+					"start": 152.48688900000003
+				},
+				{
+					"ball_range": "{6,5}",
+					"range": "{6,5}",
+					"start": 152.865889
+				},
+				{
+					"ball_range": "{11,1}",
+					"range": "{11,1}",
+					"start": 153.233889
+				},
+				{
+					"ball_range": "{12,2}",
+					"range": "{12,2}",
+					"start": 153.61688900000002
+				},
+				{
+					"ball_range": "{15,5}",
+					"range": "{15,5}",
+					"start": 153.982889
+				},
+				{
+					"ball_range": "{21,2}",
+					"range": "{21,3}",
+					"start": 154.40388900000003
+				}
+			],
+			"text": "their guardian would be."
+		},
+		{
+			"image": null,
+			"start": 155.953889,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 155.953889
+				},
+				{
+					"ball_range": "{5,3}",
+					"range": "{5,3}",
+					"start": 156.303889
+				},
+				{
+					"ball_range": "{9,7}",
+					"range": "{9,7}",
+					"start": 156.738889
+				}
+			],
+			"text": "They had learned"
+		},
+		{
+			"image": null,
+			"start": 157.48688900000003,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 157.48688900000003
+				},
+				{
+					"ball_range": "{5,6}",
+					"range": "{5,6}",
+					"start": 157.85488900000002
+				},
+				{
+					"ball_range": "{12,4}",
+					"range": "{12,4}",
+					"start": 158.27288900000003
+				},
+				{
+					"ball_range": "{17,5}",
+					"range": "{17,5}",
+					"start": 159.055889
+				},
+				{
+					"ball_range": "{22,4}",
+					"range": "{22,4}",
+					"start": 159.806889
+				},
+				{
+					"ball_range": "{26,2}",
+					"range": "{26,3}",
+					"start": 160.70788900000003
+				}
+			],
+			"text": "they should live righteously."
+		},
+		{
+			"start": 161.23588900000002,
+			"syllables": [],
+			"text": ""
+		},
+		{
+			"image": null,
+			"start": 162.435889,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 162.435889
+				},
+				{
+					"ball_range": "{2,2}",
+					"range": "{2,2}",
+					"start": 162.80188900000003
+				},
+				{
+					"ball_range": "{4,2}",
+					"range": "{4,2}",
+					"start": 163.190889
+				},
+				{
+					"ball_range": "{7,3}",
+					"range": "{7,3}",
+					"start": 163.506889
+				},
+				{
+					"ball_range": "{11,2}",
+					"range": "{11,2}",
+					"start": 163.870889
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 164.270889
+				},
+				{
+					"ball_range": "{16,3}",
+					"range": "{16,4}",
+					"start": 164.637889
+				},
+				{
+					"ball_range": "{21,4}",
+					"range": "{21,4}",
+					"start": 165.02888900000003
+				},
+				{
+					"ball_range": "{26,2}",
+					"range": "{26,2}",
+					"start": 165.423889
+				},
+				{
+					"ball_range": "{29,3}",
+					"range": "{29,3}",
+					"start": 165.791889
+				},
+				{
+					"ball_range": "{33,3}",
+					"range": "{33,3}",
+					"start": 166.220889
+				},
+				{
+					"ball_range": "{36,1}",
+					"range": "{36,1}",
+					"start": 166.58888900000003
+				},
+				{
+					"ball_range": "{38,4}",
+					"range": "{38,5}",
+					"start": 166.976889
+				}
+			],
+			"text": "Samuel the Lamanite, high on the city wall,"
+		},
+		{
+			"image": null,
+			"start": 168.496889,
+			"syllables": [
+				{
+					"ball_range": "{0,4}",
+					"range": "{0,4}",
+					"start": 168.496889
+				},
+				{
+					"ball_range": "{5,2}",
+					"range": "{5,2}",
+					"start": 168.90288900000003
+				},
+				{
+					"ball_range": "{8,4}",
+					"range": "{8,4}",
+					"start": 169.27788900000003
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 169.648889
+				},
+				{
+					"ball_range": "{17,3}",
+					"range": "{17,3}",
+					"start": 170.02888900000003
+				},
+				{
+					"ball_range": "{20,3}",
+					"range": "{20,4}",
+					"start": 170.39688900000003
+				}
+			],
+			"text": "Came to warn the people,"
+		},
+		{
+			"image": null,
+			"start": 170.797889,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 170.797889
+				},
+				{
+					"ball_range": "{4,2}",
+					"range": "{4,2}",
+					"start": 171.180889
+				},
+				{
+					"ball_range": "{6,4}",
+					"range": "{6,4}",
+					"start": 171.573889
+				},
+				{
+					"ball_range": "{10,4}",
+					"range": "{10,4}",
+					"start": 171.93288900000003
+				},
+				{
+					"ball_range": "{15,3}",
+					"range": "{15,3}",
+					"start": 172.321889
+				},
+				{
+					"ball_range": "{19,3}",
+					"range": "{19,3}",
+					"start": 172.692889
+				},
+				{
+					"ball_range": "{23,4}",
+					"range": "{23,5}",
+					"start": 173.10588900000003
+				}
+			],
+			"text": "and repentance was his call."
+		},
+		{
+			"start": 174.672889,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 174.672889
+				},
+				{
+					"ball_range": "{2,4}",
+					"range": "{2,4}",
+					"start": 175.042889
+				},
+				{
+					"ball_range": "{7,5}",
+					"range": "{7,5}",
+					"start": 175.42788900000003
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 175.794889
+				},
+				{
+					"ball_range": "{17,3}",
+					"range": "{17,3}",
+					"start": 176.175889
+				},
+				{
+					"ball_range": "{21,3}",
+					"range": "{21,4}",
+					"start": 176.574889
+				}
+			],
+			"text": "Arrows could not hit him,"
+		},
+		{
+			"image": null,
+			"start": 176.97588900000003,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 176.97588900000003
+				},
+				{
+					"ball_range": "{4,1}",
+					"range": "{4,1}",
+					"start": 177.328889
+				},
+				{
+					"ball_range": "{6,3}",
+					"range": "{6,3}",
+					"start": 177.711889
+				},
+				{
+					"ball_range": "{10,2}",
+					"range": "{10,2}",
+					"start": 178.078889
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 178.446889
+				},
+				{
+					"ball_range": "{17,3}",
+					"range": "{17,3}",
+					"start": 178.828889
+				},
+				{
+					"ball_range": "{21,2}",
+					"range": "{21,3}",
+					"start": 179.264889
+				}
+			],
+			"text": "for a man of God was he,"
+		},
+		{
+			"image": null,
+			"start": 180.74888900000003,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 180.74888900000003
+				},
+				{
+					"ball_range": "{4,2}",
+					"range": "{4,2}",
+					"start": 181.21388900000003
+				},
+				{
+					"ball_range": "{7,6}",
+					"range": "{7,6}",
+					"start": 181.631889
+				},
+				{
+					"ball_range": "{14,2}",
+					"range": "{14,2}",
+					"start": 182.381889
+				},
+				{
+					"ball_range": "{17,3}",
+					"range": "{17,3}",
+					"start": 182.68388900000003
+				},
+				{
+					"ball_range": "{21,4}",
+					"range": "{21,4}",
+					"start": 183.16488900000003
+				},
+				{
+					"ball_range": "{26,5}",
+					"range": "{26,5}",
+					"start": 183.91588900000003
+				},
+				{
+					"ball_range": "{31,4}",
+					"range": "{31,4}",
+					"start": 184.782889
+				},
+				{
+					"ball_range": "{35,2}",
+					"range": "{35,3}",
+					"start": 185.61788900000003
+				}
+			],
+			"text": "And he taught in the land righteously."
+		},
+		{
+			"image": null,
+			"start": 186.63188900000004,
+			"syllables": [],
+			"text": ""
+		},
+		{
+			"start": 187.83188900000003,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 187.83188900000003
+				},
+				{
+					"ball_range": "{2,3}",
+					"range": "{2,3}",
+					"start": 188.23088900000003
+				},
+				{
+					"ball_range": "{6,6}",
+					"range": "{6,6}",
+					"start": 188.667889
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 189.083889
+				},
+				{
+					"ball_range": "{17,3}",
+					"range": "{17,3}",
+					"start": 189.519889
+				},
+				{
+					"ball_range": "{20,2}",
+					"range": "{20,2}",
+					"start": 189.948889
+				},
+				{
+					"ball_range": "{22,4}",
+					"range": "{22,4}",
+					"start": 190.43288900000003
+				}
+			],
+			"text": "After Christ was crucified"
+		},
+		{
+			"image": null,
+			"start": 190.830889,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 190.830889
+				},
+				{
+					"ball_range": "{4,4}",
+					"range": "{4,4}",
+					"start": 191.311889
+				},
+				{
+					"ball_range": "{9,3}",
+					"range": "{9,3}",
+					"start": 191.734889
+				},
+				{
+					"ball_range": "{13,3}",
+					"range": "{13,3}",
+					"start": 192.199889
+				},
+				{
+					"ball_range": "{17,3}",
+					"range": "{17,3}",
+					"start": 192.668889
+				},
+				{
+					"ball_range": "{21,2}",
+					"range": "{21,3}",
+					"start": 193.20688900000003
+				}
+			],
+			"text": "and died for you and me,"
+		},
+		{
+			"image": null,
+			"start": 195.12988900000003,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 195.12988900000003
+				},
+				{
+					"ball_range": "{3,4}",
+					"range": "{3,4}",
+					"start": 195.625889
+				},
+				{
+					"ball_range": "{8,5}",
+					"range": "{8,5}",
+					"start": 196.089889
+				},
+				{
+					"ball_range": "{14,2}",
+					"range": "{14,2}",
+					"start": 196.57088900000003
+				},
+				{
+					"ball_range": "{17,5}",
+					"range": "{17,5}",
+					"start": 197.08288900000003
+				},
+				{
+					"ball_range": "{23,3}",
+					"range": "{23,3}",
+					"start": 197.591889
+				},
+				{
+					"ball_range": "{27,5}",
+					"range": "{27,5}",
+					"start": 198.02188900000003
+				}
+			],
+			"text": "He came forth to teach the truth"
+		},
+		{
+			"image": null,
+			"start": 198.46888900000003,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 198.46888900000003
+				},
+				{
+					"ball_range": "{3,3}",
+					"range": "{3,3}",
+					"start": 198.937889
+				},
+				{
+					"ball_range": "{7,3}",
+					"range": "{7,3}",
+					"start": 199.417889
+				},
+				{
+					"ball_range": "{11,5}",
+					"range": "{11,5}",
+					"start": 199.910889
+				},
+				{
+					"ball_range": "{17,2}",
+					"range": "{17,2}",
+					"start": 200.333889
+				},
+				{
+					"ball_range": "{20,4}",
+					"range": "{20,5}",
+					"start": 200.773889
+				}
+			],
+			"text": "to all who would be free."
+		},
+		{
+			"start": 202.55288900000003,
+			"syllables": [
+				{
+					"ball_range": "{0,5}",
+					"range": "{0,5}",
+					"start": 202.55288900000003
+				},
+				{
+					"ball_range": "{6,4}",
+					"range": "{6,4}",
+					"start": 203.04588900000003
+				},
+				{
+					"ball_range": "{11,4}",
+					"range": "{11,4}",
+					"start": 203.59488900000003
+				},
+				{
+					"ball_range": "{16,2}",
+					"range": "{16,2}",
+					"start": 204.056889
+				},
+				{
+					"ball_range": "{18,2}",
+					"range": "{18,2}",
+					"start": 204.536889
+				},
+				{
+					"ball_range": "{21,4}",
+					"range": "{21,4}",
+					"start": 204.96988900000003
+				},
+				{
+					"ball_range": "{26,5}",
+					"range": "{26,6}",
+					"start": 205.418889
+				}
+			],
+			"text": "Hands were laid upon each child."
+		},
+		{
+			"image": null,
+			"start": 205.925889,
+			"syllables": [
+				{
+					"ball_range": "{0,2}",
+					"range": "{0,2}",
+					"start": 205.925889
+				},
+				{
+					"ball_range": "{3,7}",
+					"range": "{3,7}",
+					"start": 206.32588900000003
+				},
+				{
+					"ball_range": "{11,4}",
+					"range": "{11,4}",
+					"start": 206.775889
+				},
+				{
+					"ball_range": "{16,3}",
+					"range": "{16,3}",
+					"start": 207.24288900000003
+				},
+				{
+					"ball_range": "{19,3}",
+					"range": "{19,3}",
+					"start": 207.687889
+				},
+				{
+					"ball_range": "{22,2}",
+					"range": "{22,3}",
+					"start": 208.125889
+				}
+			],
+			"text": "He blessed them tenderly,"
+		},
+		{
+			"image": null,
+			"start": 210.02788900000003,
+			"syllables": [
+				{
+					"ball_range": "{0,3}",
+					"range": "{0,3}",
+					"start": 210.02788900000003
+				},
+				{
+					"ball_range": "{4,4}",
+					"range": "{4,4}",
+					"start": 210.56988900000003
+				},
+				{
+					"ball_range": "{9,5}",
+					"range": "{9,5}",
+					"start": 211.144889
+				},
+				{
+					"ball_range": "{15,2}",
+					"range": "{15,2}",
+					"start": 212.10588900000003
+				},
+				{
+					"ball_range": "{18,3}",
+					"range": "{18,3}",
+					"start": 212.559889
+				},
+				{
+					"ball_range": "{22,4}",
+					"range": "{22,4}",
+					"start": 213.077889
+				},
+				{
+					"ball_range": "{27,5}",
+					"range": "{27,5}",
+					"start": 214.092889
+				},
+				{
+					"ball_range": "{32,4}",
+					"range": "{32,4}",
+					"start": 215.30888900000003
+				},
+				{
+					"ball_range": "{36,2}",
+					"range": "{36,3}",
+					"start": 216.549889
+				}
+			],
+			"text": "And they lived in the land righteously."
+		},
+		{
+			"image": null,
+			"start": 219.086889,
+			"syllables": [],
+			"text": ""
+		}
+	],
+	"lyrics_animation_duration": 0.2,
+	"tint_color": 9228538,
+	"title_transition_start": 11.179889000000001,
+	"verses": [
+		{
+			"start": 12.379889
+		},
+		{
+			"start": 37.087889000000007
+		},
+		{
+			"start": 61.738889
+		},
+		{
+			"start": 86.472889
+		},
+		{
+			"start": 111.374889
+		},
+		{
+			"start": 136.536889
+		},
+		{
+			"start": 161.435889
+		},
+		{
+			"start": 186.83188900000003
+		}
+	]
+}

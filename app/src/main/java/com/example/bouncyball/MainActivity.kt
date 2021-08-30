@@ -25,9 +25,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalDensity
-import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
@@ -55,7 +55,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val json = assets.open("iamachildofgod.json").bufferedReader().use { it.readText() }
+//        val json = assets.open("iamachildofgod.json").bufferedReader().use { it.readText() }
+        val json = assets.open("bookofmormonstories.json").bufferedReader().use { it.readText() }
 //        val json = assets.open("jesuswantsmeforasunbeam.json").bufferedReader().use { it.readText() }
         val songData = this.json.decodeFromString<SongData>(json)
 
@@ -102,6 +103,7 @@ fun SongInfo(tFlow: Flow<Double>, onClick: () -> Unit, songInfo: SongData, modif
         val widthPx = with(LocalDensity.current) { maxWidth.toPx() }.toInt()
         val lineItem1 = songInfo.getLine(position.value)
         val lineItem2 = songInfo.getNextLine(lineItem1)
+        val lineItem3 = songInfo.getNextLine(lineItem2)
         val point = lineItem1.getBallPosition(position.value, lineItem2?.syllables?.firstOrNull(), widthPx)
         var lineHeight: Float by remember { mutableStateOf(0F) }
         val verticalOffset = with(LocalDensity.current) { songInfo.getVerticalOffset(position.value, lineHeight).toDp() }
@@ -114,18 +116,21 @@ fun SongInfo(tFlow: Flow<Double>, onClick: () -> Unit, songInfo: SongData, modif
             BouncyBallRow(point, onClick = { onClick() }, modifier)
             ScrollableLines(modifier = Modifier.offset(y = verticalOffset)) {
                 ScrollableLine(
-                    annotatedString = lineItem1.toAnnotatedString(position.value),
-                    modifier = Modifier.alpha(1F - transitionPercentage)
+                    lineItem = lineItem1,
+                    position = position.value,
+                    modifier = Modifier.alpha(1F - transitionPercentage),
                 )
                 ScrollableLine(
-                    annotatedString = lineItem2?.toAnnotatedString(position.value) ?: AnnotatedString(""),
-                    onTextLayout = { result: TextLayoutResult ->
-                        lineItem2?.setBallBouncePositions(result)
-                        lineHeight = result.getLineTop(0) - result.getLineBottom(0)
+                    lineItem = lineItem2,
+                    onTextLayout = { result, forceRecalculations ->
+                        lineItem2?.setBallBouncePositions(result, forceRecalculations)
                     }
                 )
                 ScrollableLine(
-                    annotatedString = songInfo.getNextLine(lineItem2)?.toAnnotatedString(position.value) ?: AnnotatedString(""),
+                    lineItem = lineItem3,
+                    onTextLayout = { result, _ ->
+                        lineHeight = result.getLineTop(0) - result.getLineBottom(0)
+                    },
                     modifier = Modifier.alpha(transitionPercentage)
                 )
             }
@@ -141,28 +146,39 @@ fun ScrollableLines(modifier: Modifier = Modifier, composable: @Composable () ->
 
 @Composable
 fun ScrollableLine(
-    annotatedString: AnnotatedString,
+    lineItem: LineItem?,
     modifier: Modifier = Modifier,
-    onTextLayout: (TextLayoutResult) -> Unit = {}
+    position: Double = 0.0,
+    onTextLayout: (TextLayoutResult, Boolean) -> Unit = { _, _ -> }
 ) {
-    Text(text = annotatedString,
+    val line = lineItem ?: LineItem(start = 0.0, text = "", syllables = emptyList())
+    val defaultStyle = line.textStyle ?: MaterialTheme.typography.h5
+    val text = line.toAnnotatedString(position)
+    var style by remember(line.text) { mutableStateOf(defaultStyle) }
+    var isReadyToDraw by remember(style) { mutableStateOf(false) }
+    Text(
+        text = text,
         color = Color.White,
         textAlign = TextAlign.Center,
-        modifier = modifier.fillMaxWidth(),
-        style = MaterialTheme.typography.h5,
-        onTextLayout = { onTextLayout(it) }
+        softWrap = false,
+        modifier = modifier
+            .fillMaxWidth()
+            .drawWithContent {
+                if (isReadyToDraw) {
+                    drawContent()
+                }
+            },
+        style = style,
+        onTextLayout = {
+            onTextLayout(it, !isReadyToDraw)
+            if (it.didOverflowWidth) {
+                style = style.copy(fontSize = style.fontSize * 0.9)
+            } else {
+                line.textStyle = style
+                isReadyToDraw = true
+            }
+        }
     )
-}
-
-@Preview
-@Composable
-private fun ScrollableLinePreview() {
-    BouncyBallTheme(true) {
-        ScrollableLine(
-            annotatedString = AnnotatedString("I am a child of God,"),
-            modifier = Modifier.alpha(1f)
-        )
-    }
 }
 
 @Composable
