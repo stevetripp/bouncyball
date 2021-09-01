@@ -13,7 +13,7 @@ import kotlinx.serialization.Serializable
 import kotlin.math.pow
 
 @Serializable
-data class SongData(
+data class Content(
     val inOutBallAnimationDuration: Int = 1,
     val lyricsAnimationDuration: Double = 0.2,
     val lines: List<LineItem>,
@@ -63,7 +63,7 @@ data class SongData(
             }
             activeLine.syllables.isEmpty() && getNextLine(activeLine) != null -> {
                 val nextLine = getNextLine(activeLine) ?: return activeLine
-                val start = /*nextLine.start - */activeLine.start
+                val start = activeLine.start
                 val firstMidpoint = nextLine.syllables.first().horizontalMidpoint
                 val syllable = SyllableItem("{0,0}", start, "{0,0}").apply { horizontalMidpoint = 0 - firstMidpoint }
                 activeLine.copy(syllables = listOf(syllable))
@@ -110,7 +110,7 @@ data class LineItem(
     @Contextual
     var textStyle: TextStyle? = null
 
-    fun toAnnotatedString(t: Double): AnnotatedString {
+    fun toAnnotatedString(t: Double, highlightColor: Color): AnnotatedString {
         // Find the current syllable
         val syllable = syllables.findLast { it.start < t }
 
@@ -118,15 +118,14 @@ data class LineItem(
         val syllableRange = syllable?.range?.toRange() ?: (-1..-1)
 
         return buildAnnotatedString {
-            withStyle(SpanStyle(Color.Red)) {
+            withStyle(SpanStyle(highlightColor)) {
                 append(text.subSequence(0, syllableRange.last + 1).toString())
             }
             append(text.subSequence(syllableRange.last + 1, text.length).toString())
         }
     }
 
-    fun setBallBouncePositions(textLayoutResult: TextLayoutResult, forceRecalculations: Boolean) {
-//        if (!forceRecalculations && syllables.none { it.horizontalMidpoint < 0 }) return
+    fun setBallBouncePositions(textLayoutResult: TextLayoutResult) {
         syllables.forEach { syllable ->
             val range = syllable.range.toRange()
             val rect1 = textLayoutResult.getBoundingBox(range.first)
@@ -135,17 +134,17 @@ data class LineItem(
         }
     }
 
-    fun getBallPosition(t: Double, nextLineSyllable: SyllableItem?, widthPx: Int): Pair<Int, Int> {
+    fun getBallPosition(t: Double, nextLineSyllable: SyllableItem?, parentWidthPx: Int, parentHeightPx: Int): Pair<Int, Int> {
         // Find the syllable for t
         val syllable = syllables.findLast { it.start < t } ?: return Pair(-100, 0)
         val nextSyllable = getNextSyllable(syllable) ?: nextLineSyllable
         val x0 = syllable.horizontalMidpoint
         val t0 = syllable.start
-        val xf = nextSyllable?.horizontalMidpoint ?: widthPx - x0 + widthPx
+        val xf = nextSyllable?.horizontalMidpoint ?: parentWidthPx - x0 + parentWidthPx
         val tf = nextSyllable?.start ?: syllable.start + 2.0
 
         val xPos = xPos(t, x0, t0, xf, tf)
-        val yPos = yPos(xPos, x0, xf)
+        val yPos = yPos(xPos, x0, xf, parentHeightPx)
         return Pair(xPos, yPos)
     }
 
@@ -159,12 +158,11 @@ data class LineItem(
         }
     }
 
-    private fun yPos(x: Int, x0: Int, xf: Int): Int {
-        val h = 100
+    private fun yPos(x: Int, x0: Int, xf: Int, parentHeightPx: Int): Int {
         val xOffset = (x - x0).toFloat()
         val m = (xf - x0) / 2F
 
-        return ((-1 * h * xOffset.pow(2)) / m.pow(2) + (2 * h * xOffset) / m).toInt()
+        return ((-1 * parentHeightPx * xOffset.pow(2)) / m.pow(2) + (2 * parentHeightPx * xOffset) / m).toInt()
     }
 
     private fun getNextSyllable(syllable: SyllableItem): SyllableItem? {
@@ -189,5 +187,5 @@ data class SyllableItem(
     val start: Double,
     val range: String
 ) {
-    var horizontalMidpoint = -10
+    var horizontalMidpoint = -100
 }

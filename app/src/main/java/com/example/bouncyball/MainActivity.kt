@@ -3,42 +3,13 @@ package com.example.bouncyball
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.BoxWithConstraints
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.offset
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
-import androidx.compose.material.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.alpha
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.drawWithContent
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalDensity
-import androidx.compose.ui.text.TextLayoutResult
-import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.Dp
-import androidx.compose.ui.unit.dp
-import com.example.LineItem
-import com.example.SongData
-import com.example.SyllableItem
-import com.example.bouncyball.ui.theme.BouncyBallTheme
+import com.example.Content
+import com.example.bouncyball.ui.theme.AppTheme
 import kotlinx.coroutines.MainScope
-import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
 import kotlinx.serialization.decodeFromString
@@ -58,29 +29,25 @@ class MainActivity : ComponentActivity() {
 //        val json = assets.open("iamachildofgod.json").bufferedReader().use { it.readText() }
         val json = assets.open("bookofmormonstories.json").bufferedReader().use { it.readText() }
 //        val json = assets.open("jesuswantsmeforasunbeam.json").bufferedReader().use { it.readText() }
-        val songData = this.json.decodeFromString<SongData>(json)
+        val songData = this.json.decodeFromString<Content>(json)
 
         setContent {
-            BouncyBallTheme {
+            val position by tFlow.collectAsState()
+            AppTheme {
                 // A surface container using the 'background' color from the theme
-                Surface(color = MaterialTheme.colors.background) {
-                    SongInfo(
-                        tFlow = tFlow,
-                        onClick = { bounce(songData) },
-                        songInfo = songData,
-                        modifier = Modifier.height(100.dp)
-                    )
+                Surface(color = MaterialTheme.colors.secondary) {
+                    SongAnimations(position = position, content = songData)
                 }
             }
         }
         bounce(songData)
     }
 
-    private fun bounce(songData: SongData) = MainScope().launch {
+    private fun bounce(content: Content) = MainScope().launch {
         timer?.cancel()
         tFlow.value = 0.0
-        val initTime = (songData.lines.first().start - songData.inOutBallAnimationDuration) - 1
-        val endTime = (songData.lines.last().start + songData.inOutBallAnimationDuration)
+        val initTime = (content.lines.first().start - content.inOutBallAnimationDuration) - 1
+        val endTime = (content.lines.last().start + content.inOutBallAnimationDuration)
 
         var start: Long? = null
 
@@ -96,144 +63,134 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Composable
-fun SongInfo(tFlow: Flow<Double>, onClick: () -> Unit, songInfo: SongData, modifier: Modifier = Modifier) {
-    val position = tFlow.collectAsState(initial = 0.0)
-    BoxWithConstraints(modifier = Modifier.fillMaxWidth()) {
-        val widthPx = with(LocalDensity.current) { maxWidth.toPx() }.toInt()
-        val lineItem1 = songInfo.getLine(position.value)
-        val lineItem2 = songInfo.getNextLine(lineItem1)
-        val lineItem3 = songInfo.getNextLine(lineItem2)
-        val point = lineItem1.getBallPosition(position.value, lineItem2?.syllables?.firstOrNull(), widthPx)
-        var lineHeight: Float by remember { mutableStateOf(0F) }
-        val verticalOffset = with(LocalDensity.current) { songInfo.getVerticalOffset(position.value, lineHeight).toDp() }
-        val transitionPercentage = songInfo.getTransitionPercentage(position.value).toFloat()
-        Column(
-            modifier = Modifier
-                .background(Color.Blue)
-                .height(500.dp)
-        ) {
-            BouncyBallRow(point, onClick = { onClick() }, modifier)
-            ScrollableLines(modifier = Modifier.offset(y = verticalOffset)) {
-                ScrollableLine(
-                    lineItem = lineItem1,
-                    position = position.value,
-                    modifier = Modifier.alpha(1F - transitionPercentage),
-                )
-                ScrollableLine(
-                    lineItem = lineItem2,
-                    onTextLayout = { result, forceRecalculations ->
-                        lineItem2?.setBallBouncePositions(result, forceRecalculations)
-                    }
-                )
-                ScrollableLine(
-                    lineItem = lineItem3,
-                    onTextLayout = { result, _ ->
-                        lineHeight = result.getLineTop(0) - result.getLineBottom(0)
-                    },
-                    modifier = Modifier.alpha(transitionPercentage)
-                )
-            }
-        }
-        Text(text = "t: ${String.format("%.3f", position.value)}  width: $widthPx", color = Color.White)
-    }
-}
+//@Composable
+//fun SongInfo(position: Double, onClick: () -> Unit, songInfo: Content, modifier: Modifier = Modifier) {
+//    BoxWithConstraints(modifier = Modifier.fillMaxWidth()) {
+//        val widthPx = with(LocalDensity.current) { maxWidth.toPx() }.toInt()
+//        val lineItem1 = songInfo.getLine(position)
+//        val lineItem2 = songInfo.getNextLine(lineItem1)
+//        val lineItem3 = songInfo.getNextLine(lineItem2)
+//        val point = lineItem1.getBallPosition(position, lineItem2?.syllables?.firstOrNull(), widthPx)
+//        var lineHeight: Float by remember { mutableStateOf(0F) }
+//        val verticalOffset = with(LocalDensity.current) { songInfo.getVerticalOffset(position, lineHeight).toDp() }
+//        val transitionPercentage = songInfo.getTransitionPercentage(position).toFloat()
+//        Column(
+//            modifier = Modifier
+//                .height(500.dp)
+//        ) {
+//            BouncyBallRow(point, onClick = { onClick() }, modifier)
+//            ScrollableLines(modifier = Modifier.offset(y = verticalOffset)) {
+//                ScrollableLine(
+//                    lineItem = lineItem1,
+//                    position = position,
+//                    modifier = Modifier.alpha(1F - transitionPercentage),
+//                )
+//                ScrollableLine(
+//                    lineItem = lineItem2,
+//                    onTextLayout = { result, forceRecalculations ->
+//                        lineItem2?.setBallBouncePositions(result, forceRecalculations)
+//                    }
+//                )
+//                ScrollableLine(
+//                    lineItem = lineItem3,
+//                    onTextLayout = { result, _ ->
+//                        lineHeight = result.getLineTop(0) - result.getLineBottom(0)
+//                    },
+//                    modifier = Modifier.alpha(transitionPercentage)
+//                )
+//            }
+//        }
+//        Text(text = "t: ${String.format("%.3f", position)}  width: $widthPx", color = Color.White)
+//    }
+//}
 
-@Composable
-fun ScrollableLines(modifier: Modifier = Modifier, composable: @Composable () -> Unit) {
-    Column(modifier = modifier) { composable() }
-}
+//@Composable
+//private fun ScrollableLines(modifier: Modifier = Modifier, composable: @Composable () -> Unit) {
+//    Column(modifier = modifier) { composable() }
+//}
 
-@Composable
-fun ScrollableLine(
-    lineItem: LineItem?,
-    modifier: Modifier = Modifier,
-    position: Double = 0.0,
-    onTextLayout: (TextLayoutResult, Boolean) -> Unit = { _, _ -> }
-) {
-    val line = lineItem ?: LineItem(start = 0.0, text = "", syllables = emptyList())
-    val defaultStyle = line.textStyle ?: MaterialTheme.typography.h5
-    val text = line.toAnnotatedString(position)
-    var style by remember(line.text) { mutableStateOf(defaultStyle) }
-    var isReadyToDraw by remember(style) { mutableStateOf(false) }
-    Text(
-        text = text,
-        color = Color.White,
-        textAlign = TextAlign.Center,
-        softWrap = false,
-        modifier = modifier
-            .fillMaxWidth()
-            .drawWithContent {
-                if (isReadyToDraw) {
-                    drawContent()
-                }
-            },
-        style = style,
-        onTextLayout = {
-            onTextLayout(it, !isReadyToDraw)
-            if (it.didOverflowWidth) {
-                style = style.copy(fontSize = style.fontSize * 0.9)
-            } else {
-                line.textStyle = style
-                isReadyToDraw = true
-            }
-        }
-    )
-}
+//@Composable
+//private fun ScrollableLine(
+//    lineItem: LineItem?,
+//    modifier: Modifier = Modifier,
+//    position: Double = 0.0,
+//    onTextLayout: (TextLayoutResult, Boolean) -> Unit = { _, _ -> }
+//) {
+//    val line = lineItem ?: LineItem(start = 0.0, text = "", syllables = emptyList())
+//    val defaultStyle = line.textStyle ?: MaterialTheme.typography.h5
+//    val text = line.toAnnotatedString(position)
+//    var style by remember(line.text) { mutableStateOf(defaultStyle) }
+//    var isReadyToDraw by remember(style) { mutableStateOf(false) }
+//    Text(
+//        text = text,
+//        color = Color.White,
+//        textAlign = TextAlign.Center,
+//        softWrap = false,
+//        modifier = modifier
+//            .fillMaxWidth()
+//            .drawWithContent {
+//                if (isReadyToDraw) {
+//                    drawContent()
+//                }
+//            },
+//        style = style,
+//        onTextLayout = {
+//            onTextLayout(it, !isReadyToDraw)
+//            if (it.didOverflowWidth) {
+//                style = style.copy(fontSize = style.fontSize * 0.9)
+//            } else {
+//                line.textStyle = style
+//                isReadyToDraw = true
+//            }
+//        }
+//    )
+//}
 
-@Composable
-private fun BouncyBallRow(point: Pair<Int, Int>, onClick: () -> Unit, modifier: Modifier = Modifier) {
+//@Composable
+//private fun BouncyBallRow(point: Pair<Int, Int>, onClick: () -> Unit, modifier: Modifier = Modifier) {
+//
+//    val (x, y) = point
+//
+//    Column {
+//        BoxWithConstraints(
+//            modifier = modifier
+//                .fillMaxWidth()
+//                .clickable(onClick = { onClick() })
+//        ) {
+//            val xDp = with(LocalDensity.current) { x.toDp() }
+//            val yDp = 100.dp - with(LocalDensity.current) { y.toDp() } - 10.dp
+//            Ball(xDp, yDp)
+//        }
+//    }
+//}
 
-    val (x, y) = point
+//@Composable
+//private fun Ball(xDp: Dp, yDp: Dp) {
+//    Box(
+//        modifier = Modifier
+//            .offset(xDp, yDp)
+//            .size(10.dp)
+//            .clip(CircleShape)
+//            .background(Color.White)
+//    )
+//}
 
-    Column {
-        BoxWithConstraints(
-            modifier = modifier
-                .fillMaxWidth()
-                .clickable(onClick = { onClick() })
-        ) {
-            val xDp = with(LocalDensity.current) { x.toDp() }
-            val yDp = 100.dp - with(LocalDensity.current) { y.toDp() } - 10.dp
-            Ball(xDp, yDp)
-        }
-    }
-}
-
-@Composable
-fun Ball(xDp: Dp, yDp: Dp) {
-    Box(
-        modifier = Modifier
-            .offset(xDp, yDp)
-            .size(10.dp)
-            .clip(CircleShape)
-            .background(Color.White)
-    )
-}
-
-@Preview
-@Composable
-fun SongInfoPreview() {
-    BouncyBallTheme(true) {
-        val tFlow = MutableStateFlow(0.0)
-        var t by remember { mutableStateOf(0.0) }
-        val onClick: () -> Unit = { t += 500 }
-
-        SongInfo(
-            tFlow = tFlow, onClick = onClick, songInfo =
-            SongData(
-                lines = listOf(
-                    LineItem(
-                        start = 0.0,
-                        text = "I am a child of God,",
-                        syllables = listOf(SyllableItem("{0,1}", 0.0, "{0,1}"))
-                    ),
-                    LineItem(
-                        start = 10.0,
-                        text = "And he has sent me here.",
-                        syllables = listOf(SyllableItem("{0,2}", 0.0, "{0,2}"))
-                    )
-                ), titleTransitionStart = 1.0
-            ), modifier = Modifier.height(100.dp)
-        )
-    }
-}
+//@OptIn(ExperimentalSerializationApi::class)
+//@Preview
+//@Composable
+//private fun SongInfoPreview() {
+//    BouncyBallTheme(true) {
+//        val json = Json { ignoreUnknownKeys = true }
+//        val data = LocalContext.current.assets.open("bookofmormonstories.json").bufferedReader().use { it.readText() }
+//        val songData = json.decodeFromString<Content>(data)
+//        var t by remember { mutableStateOf(21.0) }
+//        val onClick: () -> Unit = { t += 500 }
+//
+//        SongInfo(
+//            position = t,
+//            onClick = onClick,
+//            songInfo = songData,
+//            modifier = Modifier.height(100.dp)
+//        )
+//    }
+//}
